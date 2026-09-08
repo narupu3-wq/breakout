@@ -1,0 +1,108 @@
+{
+  "status": {
+    "session": "2026-09-08T03-55-29.089Z-314077c8",
+    "pid": 66572,
+    "updated": 1788879034.201,
+    "status": "observing",
+    "last_message": 1788879034.145,
+    "last_quotes": {
+      "ETH/USD": 1788879034.145,
+      "BTC/USD": 1788879033.257
+    },
+    "accepted": 775397,
+    "rejected": 28850,
+    "alerts": 3,
+    "reconnects": 2,
+    "messages": 843529,
+    "raw_bytes": 294263488,
+    "ai_calls": 0,
+    "orders_sent": 0,
+    "status_age_seconds": 0.7130000591278076
+  },
+  "events": [
+    {
+      "kind": "coverage_start",
+      "received": 1788839730.691,
+      "gap_from": 1788839729.091,
+      "seconds": 1.5999999046325684,
+      "backfilled": false
+    },
+    {
+      "kind": "gap_start",
+      "received": 1788852809.097,
+      "reason": "socket closed 1001",
+      "last_message": 1788852808.676
+    },
+    {
+      "kind": "coverage_start",
+      "received": 1788852810.741,
+      "gap_from": 1788852808.676,
+      "seconds": 2.06499981880188,
+      "backfilled": false
+    },
+    {
+      "kind": "rapid_move",
+      "symbol": "ETH/USD",
+      "received": 1788862831.488,
+      "source": 1788862831.339,
+      "mid": 2497.63,
+      "reference": {
+        "received": 1788862771.226,
+        "source": 1788862771.16,
+        "mid": 2490.085
+      },
+      "elapsed_seconds": 60.26199984550476,
+      "change_fraction": 0.0030300170476107446,
+      "threshold": 0.003,
+      "action": "record_only",
+      "origin": "live"
+    },
+    {
+      "kind": "rapid_move",
+      "symbol": "ETH/USD",
+      "received": 1788874289.765,
+      "source": 1788874289.712,
+      "mid": 2460.98,
+      "reference": {
+        "received": 1788874229.034,
+        "source": 1788874229.839,
+        "mid": 2468.5249999999996
+      },
+      "elapsed_seconds": 60.73100018501282,
+      "change_fraction": -0.0030564810970111767,
+      "threshold": 0.003,
+      "action": "record_only",
+      "origin": "live"
+    },
+    {
+      "kind": "gap_start",
+      "received": 1788876635.535,
+      "reason": "socket closed 1001",
+      "last_message": 1788876635.056
+    },
+    {
+      "kind": "coverage_start",
+      "received": 1788876638.606,
+      "gap_from": 1788876635.056,
+      "seconds": 3.549999952316284,
+      "backfilled": false
+    },
+    {
+      "kind": "rapid_move",
+      "symbol": "ETH/USD",
+      "received": 1788876698.682,
+      "source": 1788876698.128,
+      "mid": 2469.4750000000004,
+      "reference": {
+        "received": 1788876638.606,
+        "source": 1788876637.934,
+        "mid": 2461.915
+      },
+      "elapsed_seconds": 60.07599997520447,
+      "change_fraction": 0.0030707802665812522,
+      "threshold": 0.003,
+      "action": "record_only",
+      "origin": "live"
+    }
+  ]
+}
