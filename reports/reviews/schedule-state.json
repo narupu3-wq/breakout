@@ -1,6 +1,6 @@
 {
-  "last_review_completed_at": 1788871727.645157,
-  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260908T124716Z.md",
-  "decision": "no_change_small_sample_and_costs",
-  "next_hypothesis": "Observe new MR BTC long exit and cost resilience; collect further rapid-move events before assessing usefulness."
+  "last_review_completed_at": 1788882669.842093,
+  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260908T154947Z.md",
+  "decision": "no_change_stop_overshoot_and_costs",
+  "next_hypothesis": "Observe new ETH MR short exit, cost resilience and recurring stop overshoot; retain WS gap evidence."
 }
