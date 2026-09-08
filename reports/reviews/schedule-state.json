@@ -1,6 +1,6 @@
 {
-  "last_review_completed_at": 1788893525.7734241,
-  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260908T185048Z.md",
-  "decision": "no_change_no_new_closed_evidence",
-  "next_hypothesis": "Review ETH MR short exit when closed; monitor recurring WS reconnects for longer gaps or sustained failures."
+  "last_review_completed_at": 1788904389.788893,
+  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260908T215149Z.md",
+  "decision": "no_change_cost_resilience_insufficient",
+  "next_hypothesis": "Observe additional independent trades across symbols, directions and regimes; monitor costs and recurring WS gaps."
 }
