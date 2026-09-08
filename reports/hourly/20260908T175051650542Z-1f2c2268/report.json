@@ -1,0 +1,369 @@
+{
+  "latency": {
+    "poll_seconds": 60,
+    "gap_threshold_seconds": 150.0,
+    "signal_freshness_seconds": 120,
+    "api_duration_seconds": null,
+    "total": {
+      "observation_interval_seconds": {
+        "count": 2363,
+        "mean": 61.81220170193389,
+        "p95": 62.38594627380371,
+        "maximum": 123.31568217277527
+      },
+      "interval_excess_over_poll_seconds": {
+        "count": 2363,
+        "mean": 1.8123122805314098,
+        "p95": 2.385946273803711,
+        "maximum": 63.31568217277527
+      },
+      "intervals_with_collection_error": 2,
+      "gaps_over_threshold": 0,
+      "candle_check_delay_seconds": {
+        "count": 326,
+        "mean": 33.90522842612003,
+        "p95": 61.79464817047119,
+        "maximum": 78.86868619918823
+      },
+      "signal_delay_seconds": {
+        "count": 44,
+        "mean": 32.29943844946948,
+        "p95": 56.80236482620239,
+        "maximum": 59.50523018836975
+      },
+      "stale_signal_observations": 0,
+      "invalid_check_events": 0,
+      "collection_errors": 2,
+      "error_messages": {
+        "OHLC data is stale": 2
+      }
+    },
+    "last_1h": {
+      "observation_interval_seconds": {
+        "count": 59,
+        "mean": 61.75995380999678,
+        "p95": 62.249473094940186,
+        "maximum": 62.309730052948
+      },
+      "interval_excess_over_poll_seconds": {
+        "count": 59,
+        "mean": 1.7599538099967826,
+        "p95": 2.2494730949401855,
+        "maximum": 2.309730052947998
+      },
+      "intervals_with_collection_error": 0,
+      "gaps_over_threshold": 0,
+      "candle_check_delay_seconds": {
+        "count": 8,
+        "mean": 23.747359812259674,
+        "p95": 41.33447289466858,
+        "maximum": 41.33447289466858
+      },
+      "signal_delay_seconds": {
+        "count": 0,
+        "mean": null,
+        "p95": null,
+        "maximum": null
+      },
+      "stale_signal_observations": 0,
+      "invalid_check_events": 0,
+      "collection_errors": 0,
+      "error_messages": {}
+    }
+  },
+  "version": "hourly-report-v2",
+  "as_of": 1788889851.650542,
+  "run": "paper-a933e913646055c5",
+  "status": "attention_required",
+  "observed_hours": 40.57284239490827,
+  "heartbeat_age_seconds": 10.54923415184021,
+  "stale_after_seconds": 150.0,
+  "events": {
+    "daily_reset": 16,
+    "no_signal": 2364,
+    "heartbeat": 2364,
+    "decision": 244,
+    "intent": 72,
+    "paper_fill": 72,
+    "close": 68,
+    "collection_error": 2
+  },
+  "events_1h": {
+    "heartbeat": 59,
+    "no_signal": 64
+  },
+  "errors": [
+    {
+      "candidate": "system",
+      "ts": 1788773402.274805,
+      "kind": "collection_error",
+      "payload": {
+        "error": "OHLC data is stale",
+        "kind": "collection_error",
+        "ts": 1788773402.274805
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788831901.650739,
+      "kind": "collection_error",
+      "payload": {
+        "error": "OHLC data is stale",
+        "kind": "collection_error",
+        "ts": 1788831901.650739
+      }
+    }
+  ],
+  "error_count_1h": 0,
+  "candidates": [
+    {
+      "candidate": "mean_reversion-cautious",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 11,
+      "net_total": 4.2204943049608,
+      "balance": 5004.090604294076,
+      "position": {
+        "carry": 0.008666026564790756,
+        "carry_ts": 1788889841.1013079,
+        "entry": 2493.2627450000005,
+        "entry_fee": 0.12122398431285519,
+        "opened": 1788882354.387085,
+        "qty": 0.12155155383839737,
+        "side": -1,
+        "stop": 2514.5456021428577,
+        "symbol": "ETHUSD",
+        "take": 2461.3384592857146
+      },
+      "unrealized": 0.5035570919063195,
+      "quote_ts": 1788889841.1013079,
+      "quote_status": "fresh",
+      "mark_price": 2489.12,
+      "dd": 7.305816947898165,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "mean_reversion-cautious-stress",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 11,
+      "net_total": -3.6678971605110595,
+      "balance": 4996.103855560597,
+      "position": {
+        "carry": 0.015228245565763602,
+        "carry_ts": 1788889841.1013079,
+        "entry": 2492.01549,
+        "entry_fee": 0.21301903332222333,
+        "opened": 1788882354.387085,
+        "qty": 0.10685077710041807,
+        "side": -1,
+        "stop": 2513.2983471428574,
+        "symbol": "ETHUSD",
+        "take": 2460.0912042857144
+      },
+      "unrealized": 0.30938535658652544,
+      "quote_ts": 1788889841.1013079,
+      "quote_status": "fresh",
+      "mark_price": 2489.12,
+      "dd": 10.066082211392313,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "mean_reversion-moderate",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 11,
+      "net_total": 4.2204943049608,
+      "balance": 5004.090604294076,
+      "position": {
+        "carry": 0.008666026564790756,
+        "carry_ts": 1788889841.1013079,
+        "entry": 2493.2627450000005,
+        "entry_fee": 0.12122398431285519,
+        "opened": 1788882354.387085,
+        "qty": 0.12155155383839737,
+        "side": -1,
+        "stop": 2514.5456021428577,
+        "symbol": "ETHUSD",
+        "take": 2461.3384592857146
+      },
+      "unrealized": 0.5035570919063195,
+      "quote_ts": 1788889841.1013079,
+      "quote_status": "fresh",
+      "mark_price": 2489.12,
+      "dd": 7.305816947898165,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "mean_reversion-moderate-stress",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 11,
+      "net_total": -3.6678971605110595,
+      "balance": 4996.103855560597,
+      "position": {
+        "carry": 0.015228245565763602,
+        "carry_ts": 1788889841.1013079,
+        "entry": 2492.01549,
+        "entry_fee": 0.21301903332222333,
+        "opened": 1788882354.387085,
+        "qty": 0.10685077710041807,
+        "side": -1,
+        "stop": 2513.2983471428574,
+        "symbol": "ETHUSD",
+        "take": 2460.0912042857144
+      },
+      "unrealized": 0.30938535658652544,
+      "quote_ts": 1788889841.1013079,
+      "quote_status": "fresh",
+      "mark_price": 2489.12,
+      "dd": 10.066082211392313,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "trend-cautious",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 6,
+      "net_total": -10.718659931456932,
+      "balance": 4989.281340068546,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 10.718659931453658,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "trend-cautious-stress",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 6,
+      "net_total": -12.003134957877938,
+      "balance": 4987.99686504212,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 12.00313495788032,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "trend-moderate",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 6,
+      "net_total": -10.718659931456932,
+      "balance": 4989.281340068546,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 10.718659931453658,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "trend-moderate-stress",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 6,
+      "net_total": -12.003134957877938,
+      "balance": 4987.99686504212,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 12.00313495788032,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    }
+  ],
+  "quotes": {
+    "BTCUSD": {
+      "ask": 78527.9,
+      "ask_size": 1.0,
+      "bid": 78527.8,
+      "bid_size": 1.0,
+      "last_candle_ts": 1788888600,
+      "observed_at": 1788889840.442872,
+      "server_time": 1788889839
+    },
+    "ETHUSD": {
+      "ask": 2489.12,
+      "ask_size": 32.0,
+      "bid": 2489.11,
+      "bid_size": 1.0,
+      "last_candle_ts": 1788888600,
+      "observed_at": 1788889841.1013079,
+      "server_time": 1788889840
+    }
+  },
+  "warnings": [
+    "recorded_data_quality_errors"
+  ],
+  "last_review": {
+    "last_review_completed_at": 1788882669.842093,
+    "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260908T154947Z.md",
+    "decision": "no_change_stop_overshoot_and_costs",
+    "next_hypothesis": "Observe new ETH MR short exit, cost resilience and recurring stop overshoot; retain WS gap evidence."
+  },
+  "review_due": false,
+  "orders_sent": 0,
+  "sp500": {
+    "status": "stored_reference_not_rechecked",
+    "file": "/Users/ermagent/Home/BreakOut/reports/monitoring/sp500/20260908T165125326242Z.json",
+    "record_age_seconds": 3566.3243000507355,
+    "data": {
+      "observed_at": 1788886285.326242,
+      "instrument": "Breakout:S&P500",
+      "cash_market_status": "within_scheduled_regular_session",
+      "reference_price": null,
+      "reference_price_at": null,
+      "change_percent": null,
+      "breakout_bid": null,
+      "breakout_ask": null,
+      "status": "stored_reference_price_unavailable",
+      "regular_session_open": "2026-09-08T13:30:00Z",
+      "regular_session_close": "2026-09-08T20:00:00Z",
+      "sources": [
+        "https://www.nyse.com/trade/hours-calendars",
+        "https://www.spglobal.com/spdji/en/indices/equity/sp-500/"
+      ],
+      "source_verified_at": "2026-09-08T12:48:47.645157+00:00",
+      "price_source_checked_at": "2026-09-08T13:49:33.382271+00:00",
+      "note": "確認済みNYSE予定では通常時間内。13:49 UTCの公式ページ価格抽出不可を参照。今回外部再取得なし、指数値・Breakout気配未取得、新規価格サンプル0。"
+    }
+  },
+  "experiments": [
+    "/Users/ermagent/Home/BreakOut/experiments/cross-market-v1",
+    "/Users/ermagent/Home/BreakOut/experiments/realtime-v1"
+  ],
+  "reporter_sha256": "70ad2b799ef73b6766bad34f24cc93a575d841519c8aed94658c69a046baafd8"
+}
