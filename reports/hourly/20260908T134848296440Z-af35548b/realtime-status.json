@@ -1,0 +1,58 @@
+{
+  "status": {
+    "session": "2026-09-08T03-55-29.089Z-314077c8",
+    "pid": 66572,
+    "updated": 1788875372.48,
+    "status": "observing",
+    "last_message": 1788875372.457,
+    "last_quotes": {
+      "ETH/USD": 1788875372.457,
+      "BTC/USD": 1788875372.236
+    },
+    "accepted": 631843,
+    "rejected": 19474,
+    "alerts": 2,
+    "reconnects": 1,
+    "messages": 686942,
+    "raw_bytes": 239011659,
+    "ai_calls": 0,
+    "orders_sent": 0,
+    "status_age_seconds": 0.8949999809265137
+  },
+  "rapid_moves": [
+    {
+      "kind": "rapid_move",
+      "symbol": "ETH/USD",
+      "received": 1788862831.488,
+      "source": 1788862831.339,
+      "mid": 2497.63,
+      "reference": {
+        "received": 1788862771.226,
+        "source": 1788862771.16,
+        "mid": 2490.085
+      },
+      "elapsed_seconds": 60.26199984550476,
+      "change_fraction": 0.0030300170476107446,
+      "threshold": 0.003,
+      "action": "record_only",
+      "origin": "live"
+    },
+    {
+      "kind": "rapid_move",
+      "symbol": "ETH/USD",
+      "received": 1788874289.765,
+      "source": 1788874289.712,
+      "mid": 2460.98,
+      "reference": {
+        "received": 1788874229.034,
+        "source": 1788874229.839,
+        "mid": 2468.5249999999996
+      },
+      "elapsed_seconds": 60.73100018501282,
+      "change_fraction": -0.0030564810970111767,
+      "threshold": 0.003,
+      "action": "record_only",
+      "origin": "live"
+    }
+  ]
+}
