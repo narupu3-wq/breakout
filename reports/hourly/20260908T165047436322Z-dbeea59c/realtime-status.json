@@ -1,0 +1,20 @@
+{
+  "session": "2026-09-08T03-55-29.089Z-314077c8",
+  "pid": 66572,
+  "updated": 1788886284.44,
+  "status": "observing",
+  "last_message": 1788886284.343,
+  "last_quotes": {
+    "ETH/USD": 1788886283.704,
+    "BTC/USD": 1788886284.343
+  },
+  "accepted": 938735,
+  "rejected": 35039,
+  "alerts": 3,
+  "reconnects": 5,
+  "messages": 1020301,
+  "raw_bytes": 355711558,
+  "ai_calls": 0,
+  "orders_sent": 0,
+  "status_age_seconds": 0.8829998970031738
+}
