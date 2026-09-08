@@ -1,0 +1,17 @@
+{
+  "observed_at": 1788871727.645157,
+  "instrument": "Breakout:S&P500",
+  "cash_market_status": "outside_regular_session_before_2026-09-08_open",
+  "reference_price": null,
+  "reference_price_at": null,
+  "change_percent": null,
+  "breakout_bid": null,
+  "breakout_ask": null,
+  "status": "calendar_verified_price_unavailable",
+  "next_regular_open": "2026-09-08T13:30:00Z",
+  "sources": [
+    "https://www.nyse.com/trade/hours-calendars"
+  ],
+  "source_verified_at": "2026-09-08T12:48:47.645157+00:00",
+  "note": "NYSE公式カレンダー・通常9:30–16:00 ETを今回再確認。現地9月8日08時台、通常開始前。開始13:30 UTC=22:30 JST。指数値・Breakout直接気配未取得、新規価格サンプル0。価格取得は今回未実施。"
+}
