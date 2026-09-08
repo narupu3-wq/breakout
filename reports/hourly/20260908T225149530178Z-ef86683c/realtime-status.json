@@ -1,0 +1,237 @@
+{
+  "session": "2026-09-08T03-55-29.089Z-314077c8",
+  "pid": 66572,
+  "updated": 1788907980.348,
+  "status": "observing",
+  "last_message": 1788907979.95,
+  "last_quotes": {
+    "ETH/USD": 1788907978.786,
+    "BTC/USD": 1788907979.95
+  },
+  "accepted": 1282966,
+  "rejected": 45418,
+  "alerts": 4,
+  "reconnects": 9,
+  "messages": 1396594,
+  "raw_bytes": 484992008,
+  "ai_calls": 0,
+  "orders_sent": 0,
+  "status_age_seconds": 0.1659998893737793,
+  "non_rejection_events": [
+    {
+      "kind": "session_start",
+      "received": 1788839729.091,
+      "config": {
+        "version": "realtime-v1",
+        "symbols": [
+          "BTC/USD",
+          "ETH/USD"
+        ],
+        "window_seconds": 60,
+        "move_fraction": 0.003,
+        "cooldown_seconds": 600,
+        "silence_seconds": 15,
+        "max_quote_age_seconds": 30,
+        "retain_raw_days": 30,
+        "purpose": "observation_only_no_orders_no_ai"
+      }
+    },
+    {
+      "kind": "archive_complete",
+      "received": 1788839730.097,
+      "compressed_files": 0
+    },
+    {
+      "kind": "coverage_start",
+      "received": 1788839730.691,
+      "gap_from": 1788839729.091,
+      "seconds": 1.5999999046325684,
+      "backfilled": false
+    },
+    {
+      "kind": "gap_start",
+      "received": 1788852809.097,
+      "reason": "socket closed 1001",
+      "last_message": 1788852808.676
+    },
+    {
+      "kind": "coverage_start",
+      "received": 1788852810.741,
+      "gap_from": 1788852808.676,
+      "seconds": 2.06499981880188,
+      "backfilled": false
+    },
+    {
+      "kind": "rapid_move",
+      "symbol": "ETH/USD",
+      "received": 1788862831.488,
+      "source": 1788862831.339,
+      "mid": 2497.63,
+      "reference": {
+        "received": 1788862771.226,
+        "source": 1788862771.16,
+        "mid": 2490.085
+      },
+      "elapsed_seconds": 60.26199984550476,
+      "change_fraction": 0.0030300170476107446,
+      "threshold": 0.003,
+      "action": "record_only",
+      "origin": "live"
+    },
+    {
+      "kind": "rapid_move",
+      "symbol": "ETH/USD",
+      "received": 1788874289.765,
+      "source": 1788874289.712,
+      "mid": 2460.98,
+      "reference": {
+        "received": 1788874229.034,
+        "source": 1788874229.839,
+        "mid": 2468.5249999999996
+      },
+      "elapsed_seconds": 60.73100018501282,
+      "change_fraction": -0.0030564810970111767,
+      "threshold": 0.003,
+      "action": "record_only",
+      "origin": "live"
+    },
+    {
+      "kind": "gap_start",
+      "received": 1788876635.535,
+      "reason": "socket closed 1001",
+      "last_message": 1788876635.056
+    },
+    {
+      "kind": "coverage_start",
+      "received": 1788876638.606,
+      "gap_from": 1788876635.056,
+      "seconds": 3.549999952316284,
+      "backfilled": false
+    },
+    {
+      "kind": "rapid_move",
+      "symbol": "ETH/USD",
+      "received": 1788876698.682,
+      "source": 1788876698.128,
+      "mid": 2469.4750000000004,
+      "reference": {
+        "received": 1788876638.606,
+        "source": 1788876637.934,
+        "mid": 2461.915
+      },
+      "elapsed_seconds": 60.07599997520447,
+      "change_fraction": 0.0030707802665812522,
+      "threshold": 0.003,
+      "action": "record_only",
+      "origin": "live"
+    },
+    {
+      "kind": "gap_start",
+      "received": 1788879098.728,
+      "reason": "websocket error",
+      "last_message": 1788879097.394
+    },
+    {
+      "kind": "coverage_start",
+      "received": 1788879100.463,
+      "gap_from": 1788879097.394,
+      "seconds": 3.069000005722046,
+      "backfilled": false
+    },
+    {
+      "kind": "gap_start",
+      "received": 1788881330.701,
+      "reason": "websocket error",
+      "last_message": 1788881329.918
+    },
+    {
+      "kind": "coverage_start",
+      "received": 1788881333.493,
+      "gap_from": 1788881329.918,
+      "seconds": 3.575000047683716,
+      "backfilled": false
+    },
+    {
+      "kind": "gap_start",
+      "received": 1788884401.199,
+      "reason": "websocket error",
+      "last_message": 1788884400.373
+    },
+    {
+      "kind": "coverage_start",
+      "received": 1788884404.384,
+      "gap_from": 1788884400.373,
+      "seconds": 4.011000156402588,
+      "backfilled": false
+    },
+    {
+      "kind": "gap_start",
+      "received": 1788886735.183,
+      "reason": "websocket error",
+      "last_message": 1788886734.35
+    },
+    {
+      "kind": "coverage_start",
+      "received": 1788886737.946,
+      "gap_from": 1788886734.35,
+      "seconds": 3.5960001945495605,
+      "backfilled": false
+    },
+    {
+      "kind": "gap_start",
+      "received": 1788891321.684,
+      "reason": "websocket error",
+      "last_message": 1788891320.964
+    },
+    {
+      "kind": "coverage_start",
+      "received": 1788891324.316,
+      "gap_from": 1788891320.964,
+      "seconds": 3.3519999980926514,
+      "backfilled": false
+    },
+    {
+      "kind": "rapid_move",
+      "symbol": "ETH/USD",
+      "received": 1788893338.65,
+      "source": 1788893338.568,
+      "mid": 2484.315,
+      "reference": {
+        "received": 1788893278.087,
+        "source": 1788893278.87,
+        "mid": 2491.815
+      },
+      "elapsed_seconds": 60.563000202178955,
+      "change_fraction": -0.003009854262856604,
+      "threshold": 0.003,
+      "action": "record_only",
+      "origin": "live"
+    },
+    {
+      "kind": "gap_start",
+      "received": 1788894125.814,
+      "reason": "websocket error",
+      "last_message": 1788894125.3
+    },
+    {
+      "kind": "coverage_start",
+      "received": 1788894128.378,
+      "gap_from": 1788894125.3,
+      "seconds": 3.078000068664551,
+      "backfilled": false
+    },
+    {
+      "kind": "gap_start",
+      "received": 1788906090.042,
+      "reason": "websocket error",
+      "last_message": 1788906089.126
+    },
+    {
+      "kind": "coverage_start",
+      "received": 1788906092.73,
+      "gap_from": 1788906089.126,
+      "seconds": 3.6030001640319824,
+      "backfilled": false
+    }
+  ]
+}
