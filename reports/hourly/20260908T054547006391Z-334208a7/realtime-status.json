@@ -1,0 +1,26 @@
+{
+  "status": {
+    "session": "2026-09-08T03-55-29.089Z-314077c8",
+    "pid": 66572,
+    "updated": 1788846450.263,
+    "status": "observing",
+    "last_message": 1788846450.143,
+    "last_quotes": {
+      "ETH/USD": 1788846449.387,
+      "BTC/USD": 1788846449.733
+    },
+    "accepted": 96040,
+    "rejected": 1882,
+    "alerts": 0,
+    "reconnects": 0,
+    "messages": 104641,
+    "raw_bytes": 36080361,
+    "ai_calls": 0,
+    "orders_sent": 0,
+    "status_age_seconds": 0.1529998779296875
+  },
+  "reject_reasons_separately_read": {
+    "out-of-order quote": 1882
+  },
+  "note": "Status and event counts are separate reads of active files, not one atomic snapshot."
+}
