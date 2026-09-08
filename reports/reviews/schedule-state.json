@@ -1,6 +1,6 @@
 {
-  "last_review_completed_at": 1788882669.842093,
-  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260908T154947Z.md",
-  "decision": "no_change_stop_overshoot_and_costs",
-  "next_hypothesis": "Observe new ETH MR short exit, cost resilience and recurring stop overshoot; retain WS gap evidence."
+  "last_review_completed_at": 1788893525.7734241,
+  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260908T185048Z.md",
+  "decision": "no_change_no_new_closed_evidence",
+  "next_hypothesis": "Review ETH MR short exit when closed; monitor recurring WS reconnects for longer gaps or sustained failures."
 }
