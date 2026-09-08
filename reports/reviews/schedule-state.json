@@ -1,6 +1,6 @@
 {
-  "last_review_completed_at": 1788846450.422892,
-  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260908T054547Z.md",
-  "decision": "no_change_insufficient_cost_resilience",
-  "next_hypothesis": "Observe current BTC opposite positions, cost resilience and stop overshoot across regimes; monitor independent WS rejection reasons and storage."
+  "last_review_completed_at": 1788860849.007501,
+  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260908T094616Z.md",
+  "decision": "no_change_cost_and_sample_limits",
+  "next_hypothesis": "Observe current MR BTC long exit and cost resilience across regimes; retain stop overshoot and WS gap evidence."
 }
