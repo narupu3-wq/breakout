@@ -1,0 +1,322 @@
+{
+  "latency": {
+    "poll_seconds": 60,
+    "gap_threshold_seconds": 150.0,
+    "signal_freshness_seconds": 120,
+    "api_duration_seconds": null,
+    "total": {
+      "observation_interval_seconds": {
+        "count": 2010,
+        "mean": 61.79257259534959,
+        "p95": 62.27825999259949,
+        "maximum": 123.31568217277527
+      },
+      "interval_excess_over_poll_seconds": {
+        "count": 2010,
+        "mean": 1.7927025939694685,
+        "p95": 2.2782599925994873,
+        "maximum": 63.31568217277527
+      },
+      "intervals_with_collection_error": 2,
+      "gaps_over_threshold": 0,
+      "candle_check_delay_seconds": {
+        "count": 278,
+        "mean": 33.53760077970491,
+        "p95": 61.79464817047119,
+        "maximum": 78.86868619918823
+      },
+      "signal_delay_seconds": {
+        "count": 36,
+        "mean": 31.979165448082817,
+        "p95": 59.50523018836975,
+        "maximum": 59.50523018836975
+      },
+      "stale_signal_observations": 0,
+      "invalid_check_events": 0,
+      "collection_errors": 2,
+      "error_messages": {
+        "OHLC data is stale": 2
+      }
+    },
+    "last_1h": {
+      "observation_interval_seconds": {
+        "count": 58,
+        "mean": 61.61453956571118,
+        "p95": 61.96417307853699,
+        "maximum": 62.233009815216064
+      },
+      "interval_excess_over_poll_seconds": {
+        "count": 58,
+        "mean": 1.6145395657111858,
+        "p95": 1.9641730785369873,
+        "maximum": 2.2330098152160645
+      },
+      "intervals_with_collection_error": 0,
+      "gaps_over_threshold": 0,
+      "candle_check_delay_seconds": {
+        "count": 8,
+        "mean": 30.18558096885681,
+        "p95": 57.332403898239136,
+        "maximum": 57.332403898239136
+      },
+      "signal_delay_seconds": {
+        "count": 0,
+        "mean": null,
+        "p95": null,
+        "maximum": null
+      },
+      "stale_signal_observations": 0,
+      "invalid_check_events": 0,
+      "collection_errors": 0,
+      "error_messages": {}
+    }
+  },
+  "version": "hourly-report-v2",
+  "as_of": 1788868009.376584,
+  "run": "paper-a933e913646055c5",
+  "status": "attention_required",
+  "observed_hours": 34.50085303240352,
+  "heartbeat_age_seconds": 27.436981201171875,
+  "stale_after_seconds": 150.0,
+  "events": {
+    "daily_reset": 16,
+    "no_signal": 2020,
+    "heartbeat": 2011,
+    "decision": 204,
+    "intent": 56,
+    "paper_fill": 56,
+    "close": 56,
+    "collection_error": 2
+  },
+  "events_1h": {
+    "heartbeat": 58,
+    "no_signal": 64
+  },
+  "errors": [
+    {
+      "candidate": "system",
+      "ts": 1788773402.274805,
+      "kind": "collection_error",
+      "payload": {
+        "error": "OHLC data is stale",
+        "kind": "collection_error",
+        "ts": 1788773402.274805
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788831901.650739,
+      "kind": "collection_error",
+      "payload": {
+        "error": "OHLC data is stale",
+        "kind": "collection_error",
+        "ts": 1788831901.650739
+      }
+    }
+  ],
+  "error_count_1h": 0,
+  "candidates": [
+    {
+      "candidate": "mean_reversion-cautious",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 9,
+      "net_total": 4.231068751749805,
+      "balance": 5004.23106875175,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 7.305816947898165,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "mean_reversion-cautious-stress",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 9,
+      "net_total": -2.582730265824876,
+      "balance": 4997.41726973417,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 8.891704403356016,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "mean_reversion-moderate",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 9,
+      "net_total": 4.231068751749805,
+      "balance": 5004.23106875175,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 7.305816947898165,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "mean_reversion-moderate-stress",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 9,
+      "net_total": -2.582730265824876,
+      "balance": 4997.41726973417,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 8.891704403356016,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "trend-cautious",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 5,
+      "net_total": -7.269352446109634,
+      "balance": 4992.730647553894,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 10.218007750415381,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "trend-cautious-stress",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 5,
+      "net_total": -9.035680023038491,
+      "balance": 4990.96431997696,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 11.012076545382115,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "trend-moderate",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 5,
+      "net_total": -7.269352446109634,
+      "balance": 4992.730647553894,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 10.218007750415381,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "trend-moderate-stress",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 5,
+      "net_total": -9.035680023038491,
+      "balance": 4990.96431997696,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 11.012076545382115,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    }
+  ],
+  "quotes": {
+    "BTCUSD": {
+      "ask": 78381.0,
+      "ask_size": 2.0,
+      "bid": 78380.9,
+      "bid_size": 1.0,
+      "last_candle_ts": 1788867000,
+      "observed_at": 1788867981.2515259,
+      "server_time": 1788867980
+    },
+    "ETHUSD": {
+      "ask": 2472.49,
+      "ask_size": 6.0,
+      "bid": 2472.48,
+      "bid_size": 1.0,
+      "last_candle_ts": 1788867000,
+      "observed_at": 1788867981.9396029,
+      "server_time": 1788867981
+    }
+  },
+  "warnings": [
+    "recorded_data_quality_errors"
+  ],
+  "last_review": {
+    "last_review_completed_at": 1788860849.007501,
+    "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260908T094616Z.md",
+    "decision": "no_change_cost_and_sample_limits",
+    "next_hypothesis": "Observe current MR BTC long exit and cost resilience across regimes; retain stop overshoot and WS gap evidence."
+  },
+  "review_due": false,
+  "orders_sent": 0,
+  "sp500": {
+    "status": "stored_reference_not_rechecked",
+    "file": "/Users/ermagent/Home/BreakOut/reports/monitoring/sp500/20260908T104658174248Z.json",
+    "record_age_seconds": 3591.2023360729218,
+    "data": {
+      "observed_at": 1788864418.174248,
+      "instrument": "Breakout:S&P500",
+      "cash_market_status": "outside_regular_session_before_2026-09-08_open",
+      "reference_price": null,
+      "reference_price_at": null,
+      "change_percent": null,
+      "breakout_bid": null,
+      "breakout_ask": null,
+      "status": "stored_calendar_price_unavailable",
+      "next_regular_open": "2026-09-08T13:30:00Z",
+      "sources": [
+        "https://www.nyse.com/trade/hours-calendars"
+      ],
+      "source_verified_at": "2026-09-08T04:46:04.253579+00:00",
+      "note": "04:46 UTC確認済みNYSE通常時間を参照。NY現地9月8日06時台で現物指数通常時間外。今回外部再取得なし。指数値・Breakout直接気配未取得、新規価格サンプル0。"
+    }
+  },
+  "experiments": [
+    "/Users/ermagent/Home/BreakOut/experiments/cross-market-v1",
+    "/Users/ermagent/Home/BreakOut/experiments/realtime-v1"
+  ],
+  "reporter_sha256": "70ad2b799ef73b6766bad34f24cc93a575d841519c8aed94658c69a046baafd8"
+}
