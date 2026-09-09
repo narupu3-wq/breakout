@@ -1,0 +1,867 @@
+{
+  "events": [
+    {
+      "ts": 1788915610.897939,
+      "kind": "intent",
+      "candidate": "mean_reversion-cautious",
+      "payload": {
+        "ask": 78769.9,
+        "available": 1.0,
+        "bid": 78769.8,
+        "fill_model": "quote_plus_slippage",
+        "kind": "intent",
+        "order_type": "simulated_market_fok",
+        "planned_risk": 3.0,
+        "qty": 0.008822649941160965,
+        "signal": {
+          "distance": 233.1285714285706,
+          "side": -1,
+          "signal_ts": 1788914700
+        },
+        "stop": 78963.54367142859,
+        "symbol": "BTCUSD",
+        "take": 78380.72224285715,
+        "ts": 1788915610.897939
+      }
+    },
+    {
+      "ts": 1788915610.897939,
+      "kind": "paper_fill",
+      "candidate": "mean_reversion-cautious",
+      "payload": {
+        "carry": 0.0,
+        "carry_ts": 1788915610.897939,
+        "entry": 78730.41510000001,
+        "entry_fee": 0.27784435685983744,
+        "kind": "paper_fill",
+        "opened": 1788915610.897939,
+        "qty": 0.008822649941160965,
+        "side": -1,
+        "stop": 78963.54367142859,
+        "symbol": "BTCUSD",
+        "take": 78380.72224285715,
+        "ts": 1788915610.897939
+      }
+    },
+    {
+      "ts": 1788915610.897939,
+      "kind": "intent",
+      "candidate": "mean_reversion-cautious-stress",
+      "payload": {
+        "ask": 78769.9,
+        "available": 1.0,
+        "bid": 78769.8,
+        "fill_model": "quote_plus_slippage",
+        "kind": "intent",
+        "order_type": "simulated_market_fok",
+        "planned_risk": 3.0,
+        "qty": 0.006713451456297766,
+        "signal": {
+          "distance": 233.1285714285706,
+          "side": -1,
+          "signal_ts": 1788914700
+        },
+        "stop": 78924.15877142859,
+        "symbol": "BTCUSD",
+        "take": 78341.33734285715,
+        "ts": 1788915610.897939
+      }
+    },
+    {
+      "ts": 1788915610.897939,
+      "kind": "paper_fill",
+      "candidate": "mean_reversion-cautious-stress",
+      "payload": {
+        "carry": 0.0,
+        "carry_ts": 1788915610.897939,
+        "entry": 78691.03020000001,
+        "entry_fee": 0.42263072903500926,
+        "kind": "paper_fill",
+        "opened": 1788915610.897939,
+        "qty": 0.006713451456297766,
+        "side": -1,
+        "stop": 78924.15877142859,
+        "symbol": "BTCUSD",
+        "take": 78341.33734285715,
+        "ts": 1788915610.897939
+      }
+    },
+    {
+      "ts": 1788915610.897939,
+      "kind": "intent",
+      "candidate": "mean_reversion-moderate",
+      "payload": {
+        "ask": 78769.9,
+        "available": 1.0,
+        "bid": 78769.8,
+        "fill_model": "quote_plus_slippage",
+        "kind": "intent",
+        "order_type": "simulated_market_fok",
+        "planned_risk": 3.0,
+        "qty": 0.008822649941160965,
+        "signal": {
+          "distance": 233.1285714285706,
+          "side": -1,
+          "signal_ts": 1788914700
+        },
+        "stop": 78963.54367142859,
+        "symbol": "BTCUSD",
+        "take": 78380.72224285715,
+        "ts": 1788915610.897939
+      }
+    },
+    {
+      "ts": 1788915610.897939,
+      "kind": "paper_fill",
+      "candidate": "mean_reversion-moderate",
+      "payload": {
+        "carry": 0.0,
+        "carry_ts": 1788915610.897939,
+        "entry": 78730.41510000001,
+        "entry_fee": 0.27784435685983744,
+        "kind": "paper_fill",
+        "opened": 1788915610.897939,
+        "qty": 0.008822649941160965,
+        "side": -1,
+        "stop": 78963.54367142859,
+        "symbol": "BTCUSD",
+        "take": 78380.72224285715,
+        "ts": 1788915610.897939
+      }
+    },
+    {
+      "ts": 1788915610.897939,
+      "kind": "intent",
+      "candidate": "mean_reversion-moderate-stress",
+      "payload": {
+        "ask": 78769.9,
+        "available": 1.0,
+        "bid": 78769.8,
+        "fill_model": "quote_plus_slippage",
+        "kind": "intent",
+        "order_type": "simulated_market_fok",
+        "planned_risk": 3.0,
+        "qty": 0.006713451456297766,
+        "signal": {
+          "distance": 233.1285714285706,
+          "side": -1,
+          "signal_ts": 1788914700
+        },
+        "stop": 78924.15877142859,
+        "symbol": "BTCUSD",
+        "take": 78341.33734285715,
+        "ts": 1788915610.897939
+      }
+    },
+    {
+      "ts": 1788915610.897939,
+      "kind": "paper_fill",
+      "candidate": "mean_reversion-moderate-stress",
+      "payload": {
+        "carry": 0.0,
+        "carry_ts": 1788915610.897939,
+        "entry": 78691.03020000001,
+        "entry_fee": 0.42263072903500926,
+        "kind": "paper_fill",
+        "opened": 1788915610.897939,
+        "qty": 0.006713451456297766,
+        "side": -1,
+        "stop": 78924.15877142859,
+        "symbol": "BTCUSD",
+        "take": 78341.33734285715,
+        "ts": 1788915610.897939
+      }
+    },
+    {
+      "ts": 1788928923.65623,
+      "kind": "close",
+      "candidate": "mean_reversion-cautious-stress",
+      "payload": {
+        "balance": 4993.876333657184,
+        "kind": "close",
+        "net_pnl": -3.0039603301226805,
+        "price": 79004.32539999999,
+        "reason": "stop",
+        "symbol": "BTCUSD",
+        "ts": 1788928923.65623
+      }
+    },
+    {
+      "ts": 1788928923.65623,
+      "kind": "close",
+      "candidate": "mean_reversion-moderate-stress",
+      "payload": {
+        "balance": 4993.876333657184,
+        "kind": "close",
+        "net_pnl": -3.0039603301226805,
+        "price": 79004.32539999999,
+        "reason": "stop",
+        "symbol": "BTCUSD",
+        "ts": 1788928923.65623
+      }
+    },
+    {
+      "ts": 1788929046.731483,
+      "kind": "close",
+      "candidate": "mean_reversion-cautious",
+      "payload": {
+        "balance": 5000.885581546304,
+        "kind": "close",
+        "net_pnl": -4.519450471526336,
+        "price": 79175.46794999999,
+        "reason": "stop",
+        "symbol": "BTCUSD",
+        "ts": 1788929046.731483
+      }
+    },
+    {
+      "ts": 1788929046.731483,
+      "kind": "close",
+      "candidate": "mean_reversion-moderate",
+      "payload": {
+        "balance": 5000.885581546304,
+        "kind": "close",
+        "net_pnl": -4.519450471526336,
+        "price": 79175.46794999999,
+        "reason": "stop",
+        "symbol": "BTCUSD",
+        "ts": 1788929046.731483
+      }
+    },
+    {
+      "ts": 1788929109.387441,
+      "kind": "intent",
+      "candidate": "trend-cautious",
+      "payload": {
+        "ask": 79189.0,
+        "available": 1.0,
+        "bid": 79188.9,
+        "fill_model": "quote_plus_slippage",
+        "kind": "intent",
+        "order_type": "simulated_market_fok",
+        "planned_risk": 3.0,
+        "qty": 0.007889837190328063,
+        "signal": {
+          "distance": 273.14285714285717,
+          "side": 1,
+          "signal_ts": 1788928200
+        },
+        "stop": 78955.45164285714,
+        "symbol": "BTCUSD",
+        "take": 79638.30878571428,
+        "ts": 1788929109.387441
+      }
+    },
+    {
+      "ts": 1788929109.387441,
+      "kind": "paper_fill",
+      "candidate": "trend-cautious",
+      "payload": {
+        "carry": 0.0,
+        "carry_ts": 1788929109.387441,
+        "entry": 79228.59449999999,
+        "entry_fee": 0.2500402845694086,
+        "kind": "paper_fill",
+        "opened": 1788929109.387441,
+        "qty": 0.007889837190328063,
+        "side": 1,
+        "stop": 78955.45164285714,
+        "symbol": "BTCUSD",
+        "take": 79638.30878571428,
+        "ts": 1788929109.387441
+      }
+    },
+    {
+      "ts": 1788929109.387441,
+      "kind": "intent",
+      "candidate": "trend-cautious-stress",
+      "payload": {
+        "ask": 79189.0,
+        "available": 1.0,
+        "bid": 79188.9,
+        "fill_model": "quote_plus_slippage",
+        "kind": "intent",
+        "order_type": "simulated_market_fok",
+        "planned_risk": 3.0,
+        "qty": 0.006155048172849311,
+        "signal": {
+          "distance": 273.14285714285717,
+          "side": 1,
+          "signal_ts": 1788928200
+        },
+        "stop": 78995.04614285714,
+        "symbol": "BTCUSD",
+        "take": 79677.90328571429,
+        "ts": 1788929109.387441
+      }
+    },
+    {
+      "ts": 1788929109.387441,
+      "kind": "paper_fill",
+      "candidate": "trend-cautious-stress",
+      "payload": {
+        "carry": 0.0,
+        "carry_ts": 1788929109.387441,
+        "entry": 79268.189,
+        "entry_fee": 0.39031961749561905,
+        "kind": "paper_fill",
+        "opened": 1788929109.387441,
+        "qty": 0.006155048172849311,
+        "side": 1,
+        "stop": 78995.04614285714,
+        "symbol": "BTCUSD",
+        "take": 79677.90328571429,
+        "ts": 1788929109.387441
+      }
+    },
+    {
+      "ts": 1788929109.387441,
+      "kind": "intent",
+      "candidate": "mean_reversion-cautious",
+      "payload": {
+        "ask": 79189.0,
+        "available": 1.0,
+        "bid": 79188.9,
+        "fill_model": "quote_plus_slippage",
+        "kind": "intent",
+        "order_type": "simulated_market_fok",
+        "planned_risk": 3.0,
+        "qty": 0.007881216838109866,
+        "signal": {
+          "distance": 273.14285714285717,
+          "side": -1,
+          "signal_ts": 1788928200
+        },
+        "stop": 79422.44840714286,
+        "symbol": "BTCUSD",
+        "take": 78739.59126428571,
+        "ts": 1788929109.387441
+      }
+    },
+    {
+      "ts": 1788929109.387441,
+      "kind": "paper_fill",
+      "candidate": "mean_reversion-cautious",
+      "payload": {
+        "carry": 0.0,
+        "carry_ts": 1788929109.387441,
+        "entry": 79149.30555,
+        "entry_fee": 0.2495171358501451,
+        "kind": "paper_fill",
+        "opened": 1788929109.387441,
+        "qty": 0.007881216838109866,
+        "side": -1,
+        "stop": 79422.44840714286,
+        "symbol": "BTCUSD",
+        "take": 78739.59126428571,
+        "ts": 1788929109.387441
+      }
+    },
+    {
+      "ts": 1788929109.387441,
+      "kind": "intent",
+      "candidate": "mean_reversion-cautious-stress",
+      "payload": {
+        "ask": 79189.0,
+        "available": 1.0,
+        "bid": 79188.9,
+        "fill_model": "quote_plus_slippage",
+        "kind": "intent",
+        "order_type": "simulated_market_fok",
+        "planned_risk": 3.0,
+        "qty": 0.0061464661373459,
+        "signal": {
+          "distance": 273.14285714285717,
+          "side": -1,
+          "signal_ts": 1788928200
+        },
+        "stop": 79382.85395714286,
+        "symbol": "BTCUSD",
+        "take": 78699.99681428571,
+        "ts": 1788929109.387441
+      }
+    },
+    {
+      "ts": 1788929109.387441,
+      "kind": "paper_fill",
+      "candidate": "mean_reversion-cautious-stress",
+      "payload": {
+        "carry": 0.0,
+        "carry_ts": 1788929109.387441,
+        "entry": 79109.7111,
+        "entry_fee": 0.3889961283290937,
+        "kind": "paper_fill",
+        "opened": 1788929109.387441,
+        "qty": 0.0061464661373459,
+        "side": -1,
+        "stop": 79382.85395714286,
+        "symbol": "BTCUSD",
+        "take": 78699.99681428571,
+        "ts": 1788929109.387441
+      }
+    },
+    {
+      "ts": 1788929109.387441,
+      "kind": "intent",
+      "candidate": "trend-moderate",
+      "payload": {
+        "ask": 79189.0,
+        "available": 1.0,
+        "bid": 79188.9,
+        "fill_model": "quote_plus_slippage",
+        "kind": "intent",
+        "order_type": "simulated_market_fok",
+        "planned_risk": 3.0,
+        "qty": 0.007889837190328063,
+        "signal": {
+          "distance": 273.14285714285717,
+          "side": 1,
+          "signal_ts": 1788928200
+        },
+        "stop": 78955.45164285714,
+        "symbol": "BTCUSD",
+        "take": 79638.30878571428,
+        "ts": 1788929109.387441
+      }
+    },
+    {
+      "ts": 1788929109.387441,
+      "kind": "paper_fill",
+      "candidate": "trend-moderate",
+      "payload": {
+        "carry": 0.0,
+        "carry_ts": 1788929109.387441,
+        "entry": 79228.59449999999,
+        "entry_fee": 0.2500402845694086,
+        "kind": "paper_fill",
+        "opened": 1788929109.387441,
+        "qty": 0.007889837190328063,
+        "side": 1,
+        "stop": 78955.45164285714,
+        "symbol": "BTCUSD",
+        "take": 79638.30878571428,
+        "ts": 1788929109.387441
+      }
+    },
+    {
+      "ts": 1788929109.387441,
+      "kind": "intent",
+      "candidate": "trend-moderate-stress",
+      "payload": {
+        "ask": 79189.0,
+        "available": 1.0,
+        "bid": 79188.9,
+        "fill_model": "quote_plus_slippage",
+        "kind": "intent",
+        "order_type": "simulated_market_fok",
+        "planned_risk": 3.0,
+        "qty": 0.006155048172849311,
+        "signal": {
+          "distance": 273.14285714285717,
+          "side": 1,
+          "signal_ts": 1788928200
+        },
+        "stop": 78995.04614285714,
+        "symbol": "BTCUSD",
+        "take": 79677.90328571429,
+        "ts": 1788929109.387441
+      }
+    },
+    {
+      "ts": 1788929109.387441,
+      "kind": "paper_fill",
+      "candidate": "trend-moderate-stress",
+      "payload": {
+        "carry": 0.0,
+        "carry_ts": 1788929109.387441,
+        "entry": 79268.189,
+        "entry_fee": 0.39031961749561905,
+        "kind": "paper_fill",
+        "opened": 1788929109.387441,
+        "qty": 0.006155048172849311,
+        "side": 1,
+        "stop": 78995.04614285714,
+        "symbol": "BTCUSD",
+        "take": 79677.90328571429,
+        "ts": 1788929109.387441
+      }
+    },
+    {
+      "ts": 1788929109.387441,
+      "kind": "intent",
+      "candidate": "mean_reversion-moderate",
+      "payload": {
+        "ask": 79189.0,
+        "available": 1.0,
+        "bid": 79188.9,
+        "fill_model": "quote_plus_slippage",
+        "kind": "intent",
+        "order_type": "simulated_market_fok",
+        "planned_risk": 3.0,
+        "qty": 0.007881216838109866,
+        "signal": {
+          "distance": 273.14285714285717,
+          "side": -1,
+          "signal_ts": 1788928200
+        },
+        "stop": 79422.44840714286,
+        "symbol": "BTCUSD",
+        "take": 78739.59126428571,
+        "ts": 1788929109.387441
+      }
+    },
+    {
+      "ts": 1788929109.387441,
+      "kind": "paper_fill",
+      "candidate": "mean_reversion-moderate",
+      "payload": {
+        "carry": 0.0,
+        "carry_ts": 1788929109.387441,
+        "entry": 79149.30555,
+        "entry_fee": 0.2495171358501451,
+        "kind": "paper_fill",
+        "opened": 1788929109.387441,
+        "qty": 0.007881216838109866,
+        "side": -1,
+        "stop": 79422.44840714286,
+        "symbol": "BTCUSD",
+        "take": 78739.59126428571,
+        "ts": 1788929109.387441
+      }
+    },
+    {
+      "ts": 1788929109.387441,
+      "kind": "intent",
+      "candidate": "mean_reversion-moderate-stress",
+      "payload": {
+        "ask": 79189.0,
+        "available": 1.0,
+        "bid": 79188.9,
+        "fill_model": "quote_plus_slippage",
+        "kind": "intent",
+        "order_type": "simulated_market_fok",
+        "planned_risk": 3.0,
+        "qty": 0.0061464661373459,
+        "signal": {
+          "distance": 273.14285714285717,
+          "side": -1,
+          "signal_ts": 1788928200
+        },
+        "stop": 79382.85395714286,
+        "symbol": "BTCUSD",
+        "take": 78699.99681428571,
+        "ts": 1788929109.387441
+      }
+    },
+    {
+      "ts": 1788929109.387441,
+      "kind": "paper_fill",
+      "candidate": "mean_reversion-moderate-stress",
+      "payload": {
+        "carry": 0.0,
+        "carry_ts": 1788929109.387441,
+        "entry": 79109.7111,
+        "entry_fee": 0.3889961283290937,
+        "kind": "paper_fill",
+        "opened": 1788929109.387441,
+        "qty": 0.0061464661373459,
+        "side": -1,
+        "stop": 79382.85395714286,
+        "symbol": "BTCUSD",
+        "take": 78699.99681428571,
+        "ts": 1788929109.387441
+      }
+    },
+    {
+      "ts": 1788931949.533237,
+      "kind": "close",
+      "candidate": "trend-cautious-stress",
+      "payload": {
+        "balance": 4984.855960413648,
+        "kind": "close",
+        "net_pnl": -3.1409046284687605,
+        "price": 78886.1349,
+        "reason": "stop",
+        "symbol": "BTCUSD",
+        "ts": 1788931949.533237
+      }
+    },
+    {
+      "ts": 1788931949.533237,
+      "kind": "close",
+      "candidate": "trend-moderate-stress",
+      "payload": {
+        "balance": 4984.855960413648,
+        "kind": "close",
+        "net_pnl": -3.1409046284687605,
+        "price": 78886.1349,
+        "reason": "stop",
+        "symbol": "BTCUSD",
+        "ts": 1788931949.533237
+      }
+    },
+    {
+      "ts": 1788932442.224138,
+      "kind": "close",
+      "candidate": "trend-cautious",
+      "payload": {
+        "balance": 4986.135512561629,
+        "kind": "close",
+        "net_pnl": -3.145827506916704,
+        "price": 78894.13320000001,
+        "reason": "stop",
+        "symbol": "BTCUSD",
+        "ts": 1788932442.224138
+      }
+    },
+    {
+      "ts": 1788932442.224138,
+      "kind": "close",
+      "candidate": "trend-moderate",
+      "payload": {
+        "balance": 4986.135512561629,
+        "kind": "close",
+        "net_pnl": -3.145827506916704,
+        "price": 78894.13320000001,
+        "reason": "stop",
+        "symbol": "BTCUSD",
+        "ts": 1788932442.224138
+      }
+    }
+  ],
+  "exit_decomposition": [
+    {
+      "candidate": "mean_reversion-cautious-stress",
+      "entry": {
+        "carry": 0.0,
+        "carry_ts": 1788915610.897939,
+        "entry": 78691.03020000001,
+        "entry_fee": 0.42263072903500926,
+        "kind": "paper_fill",
+        "opened": 1788915610.897939,
+        "qty": 0.006713451456297766,
+        "side": -1,
+        "stop": 78924.15877142859,
+        "symbol": "BTCUSD",
+        "take": 78341.33734285715,
+        "ts": 1788915610.897939
+      },
+      "close": {
+        "balance": 4993.876333657184,
+        "kind": "close",
+        "net_pnl": -3.0039603301226805,
+        "price": 79004.32539999999,
+        "reason": "stop",
+        "symbol": "BTCUSD",
+        "ts": 1788928923.65623
+      },
+      "gross_pnl": -2.1032921166909566,
+      "exit_fee": 0.424313362728362,
+      "carry_inferred": 0.05372412166835261,
+      "raw_exit_quote": 78925.4,
+      "net_if_observed_at_exact_stop_same_carry": -2.995612396426039,
+      "extra_loss_beyond_exact_stop": 0.00834793369664144,
+      "snapshots": [
+        {
+          "observed": 1788928922.851476,
+          "payload": {
+            "ask": 78925.4,
+            "ask_size": 1.0,
+            "bid": 78925.3,
+            "bid_size": 1.0,
+            "last_candle_ts": 1788927300,
+            "observed_at": 1788928922.851476,
+            "server_time": 1788928922
+          }
+        },
+        {
+          "observed": 1788928860.779476,
+          "payload": {
+            "ask": 78904.3,
+            "ask_size": 1.0,
+            "bid": 78904.2,
+            "bid_size": 1.0,
+            "last_candle_ts": 1788927300,
+            "observed_at": 1788928860.779476,
+            "server_time": 1788928860
+          }
+        }
+      ]
+    },
+    {
+      "candidate": "mean_reversion-cautious",
+      "entry": {
+        "carry": 0.0,
+        "carry_ts": 1788915610.897939,
+        "entry": 78730.41510000001,
+        "entry_fee": 0.27784435685983744,
+        "kind": "paper_fill",
+        "opened": 1788915610.897939,
+        "qty": 0.008822649941160965,
+        "side": -1,
+        "stop": 78963.54367142859,
+        "symbol": "BTCUSD",
+        "take": 78380.72224285715,
+        "ts": 1788915610.897939
+      },
+      "close": {
+        "balance": 5000.885581546304,
+        "kind": "close",
+        "net_pnl": -4.519450471526336,
+        "price": 79175.46794999999,
+        "reason": "stop",
+        "symbol": "BTCUSD",
+        "ts": 1788929046.731483
+      },
+      "gross_pnl": -3.9265455008658274,
+      "exit_fee": 0.27941497506018376,
+      "carry_inferred": 0.03564563874048776,
+      "raw_exit_quote": 79135.9,
+      "net_if_observed_at_exact_stop_same_carry": -2.9974420396722605,
+      "extra_loss_beyond_exact_stop": 1.5220084318540756,
+      "snapshots": [
+        {
+          "observed": 1788929046.043117,
+          "payload": {
+            "ask": 79135.9,
+            "ask_size": 1.0,
+            "bid": 79135.8,
+            "bid_size": 1.0,
+            "last_candle_ts": 1788927300,
+            "observed_at": 1788929046.043117,
+            "server_time": 1788929045
+          }
+        },
+        {
+          "observed": 1788928984.364504,
+          "payload": {
+            "ask": 78922.5,
+            "ask_size": 1.0,
+            "bid": 78922.4,
+            "bid_size": 1.0,
+            "last_candle_ts": 1788927300,
+            "observed_at": 1788928984.364504,
+            "server_time": 1788928983
+          }
+        }
+      ]
+    },
+    {
+      "candidate": "trend-cautious-stress",
+      "entry": {
+        "carry": 0.0,
+        "carry_ts": 1788929109.387441,
+        "entry": 79268.189,
+        "entry_fee": 0.39031961749561905,
+        "kind": "paper_fill",
+        "opened": 1788929109.387441,
+        "qty": 0.006155048172849311,
+        "side": 1,
+        "stop": 78995.04614285714,
+        "symbol": "BTCUSD",
+        "take": 79677.90328571429,
+        "ts": 1788929109.387441
+      },
+      "close": {
+        "balance": 4984.855960413648,
+        "kind": "close",
+        "net_pnl": -3.1409046284687605,
+        "price": 78886.1349,
+        "reason": "stop",
+        "symbol": "BTCUSD",
+        "ts": 1788931949.533237
+      },
+      "gross_pnl": -2.3515613901345507,
+      "exit_fee": 0.3884383683835115,
+      "carry_inferred": 0.010585252455079353,
+      "raw_exit_quote": 78965.1,
+      "net_if_observed_at_exact_stop_same_carry": -2.9569163050494316,
+      "extra_loss_beyond_exact_stop": 0.18398832341932891,
+      "snapshots": [
+        {
+          "observed": 1788931948.586663,
+          "payload": {
+            "ask": 78965.2,
+            "ask_size": 4.0,
+            "bid": 78965.1,
+            "bid_size": 1.0,
+            "last_candle_ts": 1788930900,
+            "observed_at": 1788931948.586663,
+            "server_time": 1788931948
+          }
+        },
+        {
+          "observed": 1788931887.214476,
+          "payload": {
+            "ask": 79050.3,
+            "ask_size": 2.0,
+            "bid": 79050.2,
+            "bid_size": 1.0,
+            "last_candle_ts": 1788930900,
+            "observed_at": 1788931887.214476,
+            "server_time": 1788931886
+          }
+        }
+      ]
+    },
+    {
+      "candidate": "trend-cautious",
+      "entry": {
+        "carry": 0.0,
+        "carry_ts": 1788929109.387441,
+        "entry": 79228.59449999999,
+        "entry_fee": 0.2500402845694086,
+        "kind": "paper_fill",
+        "opened": 1788929109.387441,
+        "qty": 0.007889837190328063,
+        "side": 1,
+        "stop": 78955.45164285714,
+        "symbol": "BTCUSD",
+        "take": 79638.30878571428,
+        "ts": 1788929109.387441
+      },
+      "close": {
+        "balance": 4986.135512561629,
+        "kind": "close",
+        "net_pnl": -3.145827506916704,
+        "price": 78894.13320000001,
+        "reason": "stop",
+        "symbol": "BTCUSD",
+        "ts": 1788932442.224138
+      },
+      "gross_pnl": -2.63884520346532,
+      "exit_fee": 0.2489847464880224,
+      "carry_inferred": 0.007957272393952497,
+      "raw_exit_quote": 78933.6,
+      "net_if_observed_at_exact_stop_same_carry": -2.9735767332656584,
+      "extra_loss_beyond_exact_stop": 0.17225077365104546,
+      "snapshots": [
+        {
+          "observed": 1788932441.553092,
+          "payload": {
+            "ask": 78933.7,
+            "ask_size": 2.0,
+            "bid": 78933.6,
+            "bid_size": 1.0,
+            "last_candle_ts": 1788930900,
+            "observed_at": 1788932441.553092,
+            "server_time": 1788932441
+          }
+        },
+        {
+          "observed": 1788932379.9888241,
+          "payload": {
+            "ask": 78964.4,
+            "ask_size": 4.0,
+            "bid": 78964.3,
+            "bid_size": 1.0,
+            "last_candle_ts": 1788930900,
+            "observed_at": 1788932379.9888241,
+            "server_time": 1788932379
+          }
+        }
+      ]
+    }
+  ],
+  "note": "Counterfactual exact-stop quote holds carry fixed; no claim of executable fill or faster-poll benefit. Carry inferred from frozen accounting identity."
+}
