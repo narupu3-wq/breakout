@@ -1,0 +1,436 @@
+{
+  "latency": {
+    "poll_seconds": 60,
+    "gap_threshold_seconds": 150.0,
+    "signal_freshness_seconds": 120,
+    "api_duration_seconds": null,
+    "total": {
+      "observation_interval_seconds": {
+        "count": 3250,
+        "mean": 61.768180675286516,
+        "p95": 62.303321838378906,
+        "maximum": 123.31568217277527
+      },
+      "interval_excess_over_poll_seconds": {
+        "count": 3250,
+        "mean": 1.7683905297792875,
+        "p95": 2.3033218383789062,
+        "maximum": 63.31568217277527
+      },
+      "intervals_with_collection_error": 2,
+      "gaps_over_threshold": 0,
+      "candle_check_delay_seconds": {
+        "count": 448,
+        "mean": 33.79358841585262,
+        "p95": 61.79464817047119,
+        "maximum": 78.86868619918823
+      },
+      "signal_delay_seconds": {
+        "count": 65,
+        "mean": 30.873757934570314,
+        "p95": 57.76102304458618,
+        "maximum": 63.37018799781799
+      },
+      "stale_signal_observations": 0,
+      "invalid_check_events": 0,
+      "collection_errors": 2,
+      "error_messages": {
+        "OHLC data is stale": 2
+      }
+    },
+    "last_1h": {
+      "observation_interval_seconds": {
+        "count": 58,
+        "mean": 61.68400258442451,
+        "p95": 62.07982110977173,
+        "maximum": 63.14899301528931
+      },
+      "interval_excess_over_poll_seconds": {
+        "count": 58,
+        "mean": 1.6840025844245121,
+        "p95": 2.0798211097717285,
+        "maximum": 3.1489930152893066
+      },
+      "intervals_with_collection_error": 0,
+      "gaps_over_threshold": 0,
+      "candle_check_delay_seconds": {
+        "count": 8,
+        "mean": 26.609845399856567,
+        "p95": 51.447611808776855,
+        "maximum": 51.447611808776855
+      },
+      "signal_delay_seconds": {
+        "count": 8,
+        "mean": 26.609845399856567,
+        "p95": 51.447611808776855,
+        "maximum": 51.447611808776855
+      },
+      "stale_signal_observations": 0,
+      "invalid_check_events": 0,
+      "collection_errors": 0,
+      "error_messages": {}
+    }
+  },
+  "version": "hourly-report-v2",
+  "as_of": 1788944568.0463738,
+  "run": "paper-a933e913646055c5",
+  "status": "attention_required",
+  "observed_hours": 55.76294088741144,
+  "heartbeat_age_seconds": 42.590492963790894,
+  "stale_after_seconds": 150.0,
+  "events": {
+    "daily_reset": 24,
+    "no_signal": 3232,
+    "heartbeat": 3251,
+    "decision": 352,
+    "intent": 94,
+    "paper_fill": 94,
+    "close": 86,
+    "collection_error": 2
+  },
+  "events_1h": {
+    "close": 6,
+    "heartbeat": 58,
+    "decision": 44,
+    "intent": 10,
+    "paper_fill": 10,
+    "no_signal": 20
+  },
+  "errors": [
+    {
+      "candidate": "system",
+      "ts": 1788773402.274805,
+      "kind": "collection_error",
+      "payload": {
+        "error": "OHLC data is stale",
+        "kind": "collection_error",
+        "ts": 1788773402.274805
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788831901.650739,
+      "kind": "collection_error",
+      "payload": {
+        "error": "OHLC data is stale",
+        "kind": "collection_error",
+        "ts": 1788831901.650739
+      }
+    }
+  ],
+  "error_count_1h": 0,
+  "candidates": [
+    {
+      "candidate": "mean_reversion-cautious",
+      "closed_1h": 1,
+      "net_1h": -3.458376923418859,
+      "closed_total": 14,
+      "net_total": -2.572795377109583,
+      "balance": 4997.2047999082515,
+      "position": {
+        "carry": 0.005739024797989177,
+        "carry_ts": 1788944525.4558809,
+        "entry": 79414.37295,
+        "entry_fee": 0.21666568982822487,
+        "opened": 1788941751.4476118,
+        "qty": 0.006820732878059729,
+        "side": -1,
+        "stop": 79746.28723571429,
+        "symbol": "BTCUSD",
+        "take": 78916.50152142857
+      },
+      "unrealized": -1.5191617127682622,
+      "quote_ts": 1788944524.768679,
+      "quote_status": "fresh",
+      "mark_price": 79637.1,
+      "dd": 11.614425633103565,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "mean_reversion-cautious-stress",
+      "closed_1h": 2,
+      "net_1h": -6.119887670554664,
+      "closed_total": 15,
+      "net_total": -12.243554013368234,
+      "balance": 4987.420290202091,
+      "position": {
+        "carry": 0.0031387264883889687,
+        "carry_ts": 1788944525.4558809,
+        "entry": 79555.5648,
+        "entry_fee": 0.3330170580513609,
+        "opened": 1788943538.388531,
+        "qty": 0.005232460150470846,
+        "side": -1,
+        "stop": 79900.79337142858,
+        "symbol": "BTCUSD",
+        "take": 79037.72194285713
+      },
+      "unrealized": -0.42662968486073855,
+      "quote_ts": 1788944524.768679,
+      "quote_status": "fresh",
+      "mark_price": 79637.1,
+      "dd": 16.31364116214263,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "mean_reversion-moderate",
+      "closed_1h": 1,
+      "net_1h": -3.458376923418859,
+      "closed_total": 14,
+      "net_total": -2.572795377109583,
+      "balance": 4997.2047999082515,
+      "position": {
+        "carry": 0.005739024797989177,
+        "carry_ts": 1788944525.4558809,
+        "entry": 79414.37295,
+        "entry_fee": 0.21666568982822487,
+        "opened": 1788941751.4476118,
+        "qty": 0.006820732878059729,
+        "side": -1,
+        "stop": 79746.28723571429,
+        "symbol": "BTCUSD",
+        "take": 78916.50152142857
+      },
+      "unrealized": -1.5191617127682622,
+      "quote_ts": 1788944524.768679,
+      "quote_status": "fresh",
+      "mark_price": 79637.1,
+      "dd": 11.614425633103565,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "mean_reversion-moderate-stress",
+      "closed_1h": 2,
+      "net_1h": -6.119887670554664,
+      "closed_total": 15,
+      "net_total": -12.243554013368234,
+      "balance": 4987.413205255713,
+      "position": {
+        "carry": 0.0032048794742696313,
+        "carry_ts": 1788944525.4558809,
+        "entry": 79555.5648,
+        "entry_fee": 0.3400358514444096,
+        "opened": 1788943538.388531,
+        "qty": 0.005342741458426703,
+        "side": -1,
+        "stop": 79900.79337142858,
+        "symbol": "BTCUSD",
+        "take": 79037.72194285713
+      },
+      "unrealized": -0.4356214933611823,
+      "quote_ts": 1788944524.768679,
+      "quote_status": "fresh",
+      "mark_price": 79637.1,
+      "dd": 16.33560553856205,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "trend-cautious",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 7,
+      "net_total": -13.864487438373637,
+      "balance": 4985.912620809319,
+      "position": {
+        "carry": 0.00575159252320831,
+        "carry_ts": 1788944525.4558809,
+        "entry": 79493.92709999999,
+        "entry_fee": 0.21714015978610507,
+        "opened": 1788941751.4476118,
+        "qty": 0.006828828556706979,
+        "side": 1,
+        "stop": 79162.0128142857,
+        "symbol": "BTCUSD",
+        "take": 79991.79852857142
+      },
+      "unrealized": 0.9770203052109758,
+      "quote_ts": 1788944524.768679,
+      "quote_status": "fresh",
+      "mark_price": 79637.0,
+      "dd": 14.297859513500953,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "trend-cautious-stress",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 7,
+      "net_total": -15.144039586346699,
+      "balance": 4984.497620063675,
+      "position": {
+        "carry": 0.009246765106015067,
+        "carry_ts": 1788944525.4558809,
+        "entry": 79533.65419999999,
+        "entry_fee": 0.349093584867638,
+        "opened": 1788941751.4476118,
+        "qty": 0.005486570250968646,
+        "side": 1,
+        "stop": 79201.7399142857,
+        "symbol": "BTCUSD",
+        "take": 80031.52562857143
+      },
+      "unrealized": 0.5670139918426107,
+      "quote_ts": 1788944524.768679,
+      "quote_status": "fresh",
+      "mark_price": 79637.0,
+      "dd": 15.885034364027888,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "trend-moderate",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 7,
+      "net_total": -13.864487438373637,
+      "balance": 4985.912620809319,
+      "position": {
+        "carry": 0.00575159252320831,
+        "carry_ts": 1788944525.4558809,
+        "entry": 79493.92709999999,
+        "entry_fee": 0.21714015978610507,
+        "opened": 1788941751.4476118,
+        "qty": 0.006828828556706979,
+        "side": 1,
+        "stop": 79162.0128142857,
+        "symbol": "BTCUSD",
+        "take": 79991.79852857142
+      },
+      "unrealized": 0.9770203052109758,
+      "quote_ts": 1788944524.768679,
+      "quote_status": "fresh",
+      "mark_price": 79637.0,
+      "dd": 14.297859513500953,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "trend-moderate-stress",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 7,
+      "net_total": -15.144039586346699,
+      "balance": 4984.497620063675,
+      "position": {
+        "carry": 0.009246765106015067,
+        "carry_ts": 1788944525.4558809,
+        "entry": 79533.65419999999,
+        "entry_fee": 0.349093584867638,
+        "opened": 1788941751.4476118,
+        "qty": 0.005486570250968646,
+        "side": 1,
+        "stop": 79201.7399142857,
+        "symbol": "BTCUSD",
+        "take": 80031.52562857143
+      },
+      "unrealized": 0.5670139918426107,
+      "quote_ts": 1788944524.768679,
+      "quote_status": "fresh",
+      "mark_price": 79637.0,
+      "dd": 15.885034364027888,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    }
+  ],
+  "quotes": {
+    "BTCUSD": {
+      "ask": 79637.1,
+      "ask_size": 1.0,
+      "bid": 79637.0,
+      "bid_size": 1.0,
+      "last_candle_ts": 1788943500,
+      "observed_at": 1788944524.768679,
+      "server_time": 1788944524
+    },
+    "ETHUSD": {
+      "ask": 2518.35,
+      "ask_size": 24.0,
+      "bid": 2518.34,
+      "bid_size": 1.0,
+      "last_candle_ts": 1788943500,
+      "observed_at": 1788944525.4558809,
+      "server_time": 1788944524
+    }
+  },
+  "warnings": [
+    "recorded_data_quality_errors"
+  ],
+  "last_review": {
+    "last_review_completed_at": 1788937503.25008,
+    "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260909T070239Z.md",
+    "decision": "no_change_stop_overshoot_diagnosed",
+    "next_hypothesis": "Replay saved WS during BTC stop crossing; ETH new regime evidence; one registration-free official SP500 history source. Alpha Vantage demo exhausted; no repeat."
+  },
+  "review_due": false,
+  "orders_sent": 0,
+  "sp500": {
+    "status": "stored_reference_not_rechecked",
+    "file": "/Users/ermagent/Home/BreakOut/reports/monitoring/sp500/20260909T080235079350Z.json",
+    "record_age_seconds": 3612.9670238494873,
+    "data": {
+      "observed_at": 1788940955.07935,
+      "instrument": "Breakout:S&P500",
+      "reference_instrument": "S&P Dow Jones Indices S&P 500 price index via FRED SP500",
+      "cash_market_status": "outside_scheduled_regular_session_after_close",
+      "reference_price": 7673.52,
+      "reference_price_at": "2026-09-08T20:00:00Z",
+      "reference_price_at_basis": "FRED observation date with daily close definition and NYSE regular close; not a tick timestamp",
+      "reference_observation_date": "2026-09-08",
+      "previous_trading_date": "2026-09-04",
+      "previous_close": 7718.6,
+      "change_percent": -0.5840437385018049,
+      "change_percent_basis": "calculated from two FRED closing observations",
+      "breakout_bid": null,
+      "breakout_ask": null,
+      "status": "stored_daily_close_not_rechecked",
+      "source_updated_at": "2026-09-09T00:02:00Z",
+      "source_verified_at": "2026-09-09T00:54:36.177648+00:00",
+      "price_source_checked_at": "2026-09-09T03:57:56.019733+00:00",
+      "sources": [
+        "https://fred.stlouisfed.org/series/SP500",
+        "https://www.nyse.com/trade/hours-calendars"
+      ],
+      "price_source": "https://fred.stlouisfed.org/series/SP500",
+      "next_regular_open": "2026-09-09T13:30:00Z",
+      "new_live_samples": 0,
+      "note": "今回外部再取得なし。保存済み9月8日終値参照、新規価格0。通常営業開始前。FRED自動履歴・Alpha Vantage採用保留、Breakout気配未取得。",
+      "new_price_samples": 0,
+      "usage_review_source": "https://fred.stlouisfed.org/legal/",
+      "alternative_source_check": {
+        "url": "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&apikey=demo",
+        "http_status": 200,
+        "outcome": "demo_requires_free_key_no_prices",
+        "checked_at": 1788937503.25008,
+        "documentation": "https://www.alphavantage.co/documentation/",
+        "terms": "https://www.alphavantage.co/terms_of_service/",
+        "is_previous_check": true
+      }
+    }
+  },
+  "experiments": [
+    "/Users/ermagent/Home/BreakOut/experiments/cross-market-v1",
+    "/Users/ermagent/Home/BreakOut/experiments/realtime-v1"
+  ],
+  "reporter_sha256": "70ad2b799ef73b6766bad34f24cc93a575d841519c8aed94658c69a046baafd8"
+}
