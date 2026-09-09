@@ -1,0 +1,54 @@
+[
+  {
+    "ts": 1788928923.65623,
+    "candidate": "mean_reversion-cautious-stress",
+    "payload": {
+      "balance": 4993.876333657184,
+      "kind": "close",
+      "net_pnl": -3.0039603301226805,
+      "price": 79004.32539999999,
+      "reason": "stop",
+      "symbol": "BTCUSD",
+      "ts": 1788928923.65623
+    }
+  },
+  {
+    "ts": 1788928923.65623,
+    "candidate": "mean_reversion-moderate-stress",
+    "payload": {
+      "balance": 4993.876333657184,
+      "kind": "close",
+      "net_pnl": -3.0039603301226805,
+      "price": 79004.32539999999,
+      "reason": "stop",
+      "symbol": "BTCUSD",
+      "ts": 1788928923.65623
+    }
+  },
+  {
+    "ts": 1788929046.731483,
+    "candidate": "mean_reversion-cautious",
+    "payload": {
+      "balance": 5000.885581546304,
+      "kind": "close",
+      "net_pnl": -4.519450471526336,
+      "price": 79175.46794999999,
+      "reason": "stop",
+      "symbol": "BTCUSD",
+      "ts": 1788929046.731483
+    }
+  },
+  {
+    "ts": 1788929046.731483,
+    "candidate": "mean_reversion-moderate",
+    "payload": {
+      "balance": 5000.885581546304,
+      "kind": "close",
+      "net_pnl": -4.519450471526336,
+      "price": 79175.46794999999,
+      "reason": "stop",
+      "symbol": "BTCUSD",
+      "ts": 1788929046.731483
+    }
+  }
+]
