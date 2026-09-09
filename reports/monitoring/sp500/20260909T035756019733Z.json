@@ -1,0 +1,30 @@
+{
+  "observed_at": 1788926276.019733,
+  "instrument": "Breakout:S&P500",
+  "reference_instrument": "S&P Dow Jones Indices S&P 500 price index via FRED SP500",
+  "cash_market_status": "outside_scheduled_regular_session_after_close",
+  "reference_price": 7673.52,
+  "reference_price_at": "2026-09-08T20:00:00Z",
+  "reference_price_at_basis": "FRED observation date with daily close definition and NYSE regular close; not a tick timestamp",
+  "reference_observation_date": "2026-09-08",
+  "previous_trading_date": "2026-09-04",
+  "previous_close": 7718.6,
+  "change_percent": -0.5840437385018049,
+  "change_percent_basis": "calculated from two FRED closing observations",
+  "breakout_bid": null,
+  "breakout_ask": null,
+  "status": "same_daily_close_rechecked",
+  "source_updated_at": "2026-09-09T00:02:00Z",
+  "source_verified_at": "2026-09-09T00:54:36.177648+00:00",
+  "price_source_checked_at": "2026-09-09T03:57:56.019733+00:00",
+  "sources": [
+    "https://fred.stlouisfed.org/series/SP500",
+    "https://www.nyse.com/trade/hours-calendars"
+  ],
+  "price_source": "https://fred.stlouisfed.org/series/SP500",
+  "next_regular_open": "2026-09-09T13:30:00Z",
+  "new_live_samples": 0,
+  "note": "FRED graphで同じ9月8日終値を再確認、新規価格サンプル0。用途・自動取得制約を確認し履歴収集への採用保留。Breakout直接気配未取得。",
+  "new_price_samples": 0,
+  "usage_review_source": "https://fred.stlouisfed.org/legal/"
+}
