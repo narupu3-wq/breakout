@@ -1,6 +1,8 @@
 {
-  "last_review_completed_at": 1788937503.25008,
-  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260909T070239Z.md",
-  "decision": "no_change_stop_overshoot_diagnosed",
-  "next_hypothesis": "Replay saved WS during BTC stop crossing; ETH new regime evidence; one registration-free official SP500 history source. Alpha Vantage demo exhausted; no repeat."
+  "last_review_completed_at": 1789380264.446985,
+  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260914T100217Z.md",
+  "decision": "new_isolated_observation_same_strategy",
+  "last_schedule_slot": "2026-09-14T19:00:00+09:00",
+  "active_observation": "experiments/resume-20260914-v1",
+  "next_hypothesis": "Verify fresh run and quote rejection recurrence; bounded saved BTC stop-crossing WS replay; ETH and SP500 evidence gaps remain."
 }

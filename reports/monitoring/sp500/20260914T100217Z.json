@@ -1,0 +1,17 @@
+{
+  "observed_at": 1789380264.446985,
+  "instrument": "Breakout:S&P500",
+  "cash_market_status": "before_scheduled_regular_session",
+  "reference_price": null,
+  "reference_price_at": null,
+  "breakout_bid": null,
+  "breakout_ask": null,
+  "status": "price_unavailable",
+  "new_price_samples": 0,
+  "new_live_samples": 0,
+  "next_regular_open": "2026-09-14T13:30:00Z",
+  "sources": [
+    "https://www.nyse.com/trade/hours-calendars"
+  ],
+  "note": "日程確認。今回価格取得なし、過去終値を現在値として使用しない。履歴取得調査は復旧優先で未実施。"
+}
