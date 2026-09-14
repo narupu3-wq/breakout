@@ -1,0 +1,30 @@
+{
+  "source": "experiments/realtime-v1/data/sessions/2026-09-08T03-55-29.089Z-314077c8/raw/2026-09-09T04.jsonl",
+  "window": [
+    1788928984.364504,
+    1788929046.043117
+  ],
+  "stop": 78963.54367142859,
+  "accepted": 1145,
+  "rejected": 34,
+  "first_cross": {
+    "received": 1788929016.598,
+    "source": 1788929016.445435,
+    "bid": 78948.8,
+    "ask": 78968.5
+  },
+  "first": {
+    "received": 1788928985.288,
+    "source": 1788928985.167976,
+    "bid": 78922.4,
+    "ask": 78922.5
+  },
+  "last": {
+    "received": 1788929045.959,
+    "source": 1788929045.836648,
+    "bid": 79135.8,
+    "ask": 79135.9
+  },
+  "max_gap_seconds": 4.634999990463257,
+  "note": "Historical diagnostic, no executable fill claim. Timestamp/quote filtering only; websocket ticker has no sequence guarantee."
+}

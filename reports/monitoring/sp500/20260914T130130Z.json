@@ -1,0 +1,19 @@
+{
+  "observed_at": 1789390998.765594,
+  "instrument": "Breakout:S&P500",
+  "cash_market_status": "before_scheduled_regular_session",
+  "reference_price": null,
+  "reference_price_at": null,
+  "breakout_bid": null,
+  "breakout_ask": null,
+  "status": "price_unavailable",
+  "new_price_samples": 0,
+  "new_live_samples": 0,
+  "next_regular_open": "2026-09-14T13:30:00Z",
+  "sources": [
+    "https://www.nyse.com/trade/hours-calendars",
+    "https://www.spglobal.com/spdji/en/indices/equity/sp-500/"
+  ],
+  "note": "公式指数ページの抽出に時刻付き価格・履歴なし。新規価格0、通常営業開始前。",
+  "price_source_checked_at": 1789390998.765594
+}

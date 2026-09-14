@@ -1,8 +1,8 @@
 {
-  "last_review_completed_at": 1789380264.446985,
-  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260914T100217Z.md",
-  "decision": "new_isolated_observation_same_strategy",
-  "last_schedule_slot": "2026-09-14T19:00:00+09:00",
+  "last_review_completed_at": 1789390998.765594,
+  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260914T130130Z.md",
+  "decision": "no_change_single_selected_stop_case",
+  "last_schedule_slot": "2026-09-14T22:00:00+09:00",
   "active_observation": "experiments/resume-20260914-v1",
-  "next_hypothesis": "Verify fresh run and quote rejection recurrence; bounded saved BTC stop-crossing WS replay; ETH and SP500 evidence gaps remain."
+  "next_hypothesis": "Paired old normal/stress stop crossing replay; verify current BTC/ETH exits; official SP500 Data link availability."
 }
