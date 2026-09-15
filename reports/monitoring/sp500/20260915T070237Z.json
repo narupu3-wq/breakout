@@ -1,0 +1,18 @@
+{
+  "observed_at": 1789455800.674315,
+  "instrument": "Breakout:S&P500",
+  "reference_price": null,
+  "reference_price_at": null,
+  "breakout_bid": null,
+  "breakout_ask": null,
+  "cash_market_status": "after_scheduled_regular_session",
+  "next_regular_open": "2026-09-15T13:30:00Z",
+  "new_price_samples": 0,
+  "new_live_samples": 0,
+  "status": "price_unavailable",
+  "sources": [
+    "https://www.spglobal.com/spdji/en/indices/equity/sp-500/#data",
+    "https://www.nyse.com/trade/hours-calendars"
+  ],
+  "note": "今回外部再確認なし。通常時間外は保存済み日程。価格0、登録不要履歴未解決。方向フィルター比較の実装・検証を優先。"
+}

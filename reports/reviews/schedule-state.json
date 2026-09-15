@@ -1,8 +1,8 @@
 {
-  "last_review_completed_at": 1789445011.863605,
-  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260915T040208Z.md",
-  "decision": "registered_offline_comparison_not_implemented",
-  "last_schedule_slot": "2026-09-15T13:00:00+09:00",
+  "last_review_completed_at": 1789456295.270068,
+  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260915T070237Z.md",
+  "decision": "comparison_complete_rejected_stress_dd",
+  "last_schedule_slot": "2026-09-15T16:00:00+09:00",
   "active_observation": "experiments/resume-20260914-v1",
-  "next_hypothesis": "Implement and verify offline comparison in experiments/regime-filter-plan-20260915/README.md. No further planning-only repeat."
+  "next_hypothesis": "Direction filter rejected for stress/DD; no threshold retuning. Review new forward evidence and unresolved SP500 source separately."
 }
