@@ -1,0 +1,42 @@
+[
+  {
+    "candidate": "mean_reversion-cautious",
+    "closed": 1,
+    "net": -3.07072296407609
+  },
+  {
+    "candidate": "mean_reversion-cautious-stress",
+    "closed": 1,
+    "net": -3.021193488460435
+  },
+  {
+    "candidate": "mean_reversion-moderate",
+    "closed": 1,
+    "net": -3.0707229640760882
+  },
+  {
+    "candidate": "mean_reversion-moderate-stress",
+    "closed": 1,
+    "net": -3.021193488460437
+  },
+  {
+    "candidate": "trend-cautious",
+    "closed": 0,
+    "net": 0.0
+  },
+  {
+    "candidate": "trend-cautious-stress",
+    "closed": 0,
+    "net": 0.0
+  },
+  {
+    "candidate": "trend-moderate",
+    "closed": 0,
+    "net": 0.0
+  },
+  {
+    "candidate": "trend-moderate-stress",
+    "closed": 0,
+    "net": 0.0
+  }
+]

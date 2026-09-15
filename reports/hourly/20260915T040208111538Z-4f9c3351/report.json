@@ -1,0 +1,1057 @@
+{
+  "latency": {
+    "poll_seconds": 60,
+    "gap_threshold_seconds": 150.0,
+    "signal_freshness_seconds": 120,
+    "api_duration_seconds": null,
+    "total": {
+      "observation_interval_seconds": {
+        "count": 5437,
+        "mean": 62.46608148016692,
+        "p95": 62.68990898132324,
+        "maximum": 3352.29616689682
+      },
+      "interval_excess_over_poll_seconds": {
+        "count": 5437,
+        "mean": 2.466318998526229,
+        "p95": 2.689908981323242,
+        "maximum": 3292.29616689682
+      },
+      "intervals_with_collection_error": 5,
+      "gaps_over_threshold": 2,
+      "candle_check_delay_seconds": {
+        "count": 750,
+        "mean": 34.526629083315534,
+        "p95": 61.63482117652893,
+        "maximum": 412.0610671043396
+      },
+      "signal_delay_seconds": {
+        "count": 97,
+        "mean": 30.725988830487754,
+        "p95": 59.43945002555847,
+        "maximum": 63.37018799781799
+      },
+      "stale_signal_observations": 0,
+      "invalid_check_events": 0,
+      "collection_errors": 59,
+      "error_messages": {
+        "OHLC data is stale": 3,
+        "Ticker bid exceeds ask": 55,
+        "Kraken Time request failed after 3 attempts: <urlopen error [Errno 8] nodename nor servname provided, or not known>": 1
+      }
+    },
+    "last_1h": {
+      "observation_interval_seconds": {
+        "count": 0,
+        "mean": null,
+        "p95": null,
+        "maximum": null
+      },
+      "interval_excess_over_poll_seconds": {
+        "count": 0,
+        "mean": null,
+        "p95": null,
+        "maximum": null
+      },
+      "intervals_with_collection_error": 0,
+      "gaps_over_threshold": 0,
+      "candle_check_delay_seconds": {
+        "count": 0,
+        "mean": null,
+        "p95": null,
+        "maximum": null
+      },
+      "signal_delay_seconds": {
+        "count": 0,
+        "mean": null,
+        "p95": null,
+        "maximum": null
+      },
+      "stale_signal_observations": 0,
+      "invalid_check_events": 0,
+      "collection_errors": 0,
+      "error_messages": {}
+    }
+  },
+  "version": "hourly-report-v2",
+  "as_of": 1789444928.111538,
+  "run": "paper-a933e913646055c5",
+  "status": "attention_required",
+  "observed_hours": 94.34113472435209,
+  "heartbeat_age_seconds": 361521.1578440666,
+  "stale_after_seconds": 150.0,
+  "events": {
+    "daily_reset": 32,
+    "no_signal": 5468,
+    "heartbeat": 5438,
+    "decision": 532,
+    "intent": 94,
+    "paper_fill": 94,
+    "close": 94,
+    "collection_error": 59,
+    "data_gap": 16
+  },
+  "events_1h": {},
+  "errors": [
+    {
+      "candidate": "system",
+      "ts": 1788773402.274805,
+      "kind": "collection_error",
+      "payload": {
+        "error": "OHLC data is stale",
+        "kind": "collection_error",
+        "ts": 1788773402.274805
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788831901.650739,
+      "kind": "collection_error",
+      "payload": {
+        "error": "OHLC data is stale",
+        "kind": "collection_error",
+        "ts": 1788831901.650739
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788957341.46074,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788957341.46074
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788957404.436203,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788957404.436203
+      }
+    },
+    {
+      "candidate": "trend-cautious",
+      "ts": 1788957468.7717838,
+      "kind": "data_gap",
+      "payload": {
+        "kind": "data_gap",
+        "seconds": 194.01543879508972,
+        "ts": 1788957468.7717838
+      }
+    },
+    {
+      "candidate": "trend-cautious-stress",
+      "ts": 1788957468.7717838,
+      "kind": "data_gap",
+      "payload": {
+        "kind": "data_gap",
+        "seconds": 194.01543879508972,
+        "ts": 1788957468.7717838
+      }
+    },
+    {
+      "candidate": "mean_reversion-cautious",
+      "ts": 1788957468.7717838,
+      "kind": "data_gap",
+      "payload": {
+        "kind": "data_gap",
+        "seconds": 194.01543879508972,
+        "ts": 1788957468.7717838
+      }
+    },
+    {
+      "candidate": "mean_reversion-cautious-stress",
+      "ts": 1788957468.7717838,
+      "kind": "data_gap",
+      "payload": {
+        "kind": "data_gap",
+        "seconds": 194.01543879508972,
+        "ts": 1788957468.7717838
+      }
+    },
+    {
+      "candidate": "trend-moderate",
+      "ts": 1788957468.7717838,
+      "kind": "data_gap",
+      "payload": {
+        "kind": "data_gap",
+        "seconds": 194.01543879508972,
+        "ts": 1788957468.7717838
+      }
+    },
+    {
+      "candidate": "trend-moderate-stress",
+      "ts": 1788957468.7717838,
+      "kind": "data_gap",
+      "payload": {
+        "kind": "data_gap",
+        "seconds": 194.01543879508972,
+        "ts": 1788957468.7717838
+      }
+    },
+    {
+      "candidate": "mean_reversion-moderate",
+      "ts": 1788957468.7717838,
+      "kind": "data_gap",
+      "payload": {
+        "kind": "data_gap",
+        "seconds": 194.01543879508972,
+        "ts": 1788957468.7717838
+      }
+    },
+    {
+      "candidate": "mean_reversion-moderate-stress",
+      "ts": 1788957468.7717838,
+      "kind": "data_gap",
+      "payload": {
+        "kind": "data_gap",
+        "seconds": 194.01543879508972,
+        "ts": 1788957468.7717838
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788957726.392423,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788957726.392423
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788957787.9905632,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788957787.9905632
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788957849.4900758,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788957849.4900758
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788957911.1423051,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788957911.1423051
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788957973.168849,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788957973.168849
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788958034.835043,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788958034.835043
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788958097.094988,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788958097.094988
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788958159.870582,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788958159.870582
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788958221.294942,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788958221.294942
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788958283.047909,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788958283.047909
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788958344.704818,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788958344.704818
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788958406.1216,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788958406.1216
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788958467.5287318,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788958467.5287318
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788958529.124591,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788958529.124591
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788958590.91875,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788958590.91875
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788958652.46855,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788958652.46855
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788958714.6235719,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788958714.6235719
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788958776.117419,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788958776.117419
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788958838.676665,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788958838.676665
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788958901.099825,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788958901.099825
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788958963.0347788,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788958963.0347788
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788959024.943136,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788959024.943136
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788959086.742971,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788959086.742971
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788959148.481767,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788959148.481767
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788959210.754022,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788959210.754022
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788959272.24263,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788959272.24263
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788959333.883193,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788959333.883193
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788959396.6442509,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788959396.6442509
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788959458.456407,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788959458.456407
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788959520.641382,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788959520.641382
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788959582.5309289,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788959582.5309289
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788959644.073013,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788959644.073013
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788959706.039464,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788959706.039464
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788959767.9085739,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788959767.9085739
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788959829.597004,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788959829.597004
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788959891.552673,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788959891.552673
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788959953.754296,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788959953.754296
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788960016.0344782,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788960016.0344782
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788960077.934298,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788960077.934298
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788960139.644843,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788960139.644843
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788960201.645386,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788960201.645386
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788960264.1130948,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788960264.1130948
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788960326.15981,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788960326.15981
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788960388.651566,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788960388.651566
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788960450.320023,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788960450.320023
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788960513.342697,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788960513.342697
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788960575.93821,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788960575.93821
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788960638.283621,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788960638.283621
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788960700.5683498,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788960700.5683498
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788960762.373827,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788960762.373827
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788960823.819018,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788960823.819018
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788960886.5664861,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788960886.5664861
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1788960950.336395,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Ticker bid exceeds ask",
+        "kind": "collection_error",
+        "ts": 1788960950.336395
+      }
+    },
+    {
+      "candidate": "trend-cautious",
+      "ts": 1788961012.061067,
+      "kind": "data_gap",
+      "payload": {
+        "kind": "data_gap",
+        "seconds": 3352.29616689682,
+        "ts": 1788961012.061067
+      }
+    },
+    {
+      "candidate": "trend-cautious-stress",
+      "ts": 1788961012.061067,
+      "kind": "data_gap",
+      "payload": {
+        "kind": "data_gap",
+        "seconds": 3352.29616689682,
+        "ts": 1788961012.061067
+      }
+    },
+    {
+      "candidate": "mean_reversion-cautious",
+      "ts": 1788961012.061067,
+      "kind": "data_gap",
+      "payload": {
+        "kind": "data_gap",
+        "seconds": 3352.29616689682,
+        "ts": 1788961012.061067
+      }
+    },
+    {
+      "candidate": "mean_reversion-cautious-stress",
+      "ts": 1788961012.061067,
+      "kind": "data_gap",
+      "payload": {
+        "kind": "data_gap",
+        "seconds": 3352.29616689682,
+        "ts": 1788961012.061067
+      }
+    },
+    {
+      "candidate": "trend-moderate",
+      "ts": 1788961012.061067,
+      "kind": "data_gap",
+      "payload": {
+        "kind": "data_gap",
+        "seconds": 3352.29616689682,
+        "ts": 1788961012.061067
+      }
+    },
+    {
+      "candidate": "trend-moderate-stress",
+      "ts": 1788961012.061067,
+      "kind": "data_gap",
+      "payload": {
+        "kind": "data_gap",
+        "seconds": 3352.29616689682,
+        "ts": 1788961012.061067
+      }
+    },
+    {
+      "candidate": "mean_reversion-moderate",
+      "ts": 1788961012.061067,
+      "kind": "data_gap",
+      "payload": {
+        "kind": "data_gap",
+        "seconds": 3352.29616689682,
+        "ts": 1788961012.061067
+      }
+    },
+    {
+      "candidate": "mean_reversion-moderate-stress",
+      "ts": 1788961012.061067,
+      "kind": "data_gap",
+      "payload": {
+        "kind": "data_gap",
+        "seconds": 3352.29616689682,
+        "ts": 1788961012.061067
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1789079399.9173162,
+      "kind": "collection_error",
+      "payload": {
+        "error": "OHLC data is stale",
+        "kind": "collection_error",
+        "ts": 1789079399.9173162
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1789083468.291156,
+      "kind": "collection_error",
+      "payload": {
+        "error": "Kraken Time request failed after 3 attempts: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "kind": "collection_error",
+        "ts": 1789083468.291156
+      }
+    }
+  ],
+  "error_count_1h": 0,
+  "candidates": [
+    {
+      "candidate": "mean_reversion-cautious",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 15,
+      "net_total": 0.210513146887783,
+      "balance": 5000.210513146873,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 11.614425633103565,
+      "halt": "data_gap_requires_new_version",
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "mean_reversion-cautious-stress",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 16,
+      "net_total": -10.598214318240043,
+      "balance": 4989.40178568176,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 16.31364116214263,
+      "halt": "data_gap_requires_new_version",
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "mean_reversion-moderate",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 15,
+      "net_total": 0.210513146887783,
+      "balance": 5000.210513146873,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 11.614425633103565,
+      "halt": "data_gap_requires_new_version",
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "mean_reversion-moderate-stress",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 16,
+      "net_total": -10.563536516901394,
+      "balance": 4989.436463483101,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 16.33560553856205,
+      "halt": "data_gap_requires_new_version",
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "trend-cautious",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 8,
+      "net_total": -17.394003015229835,
+      "balance": 4982.60599698477,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 17.394003015229828,
+      "halt": "data_gap_requires_new_version",
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "trend-cautious-stress",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 8,
+      "net_total": -18.77127772692755,
+      "balance": 4981.228722273069,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 18.771277726930748,
+      "halt": "data_gap_requires_new_version",
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "trend-moderate",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 8,
+      "net_total": -17.394003015229835,
+      "balance": 4982.60599698477,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 17.394003015229828,
+      "halt": "data_gap_requires_new_version",
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "trend-moderate-stress",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 8,
+      "net_total": -18.77127772692755,
+      "balance": 4981.228722273069,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 18.771277726930748,
+      "halt": "data_gap_requires_new_version",
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    }
+  ],
+  "quotes": {
+    "BTCUSD": {
+      "ask": 76733.4,
+      "ask_size": 1.0,
+      "bid": 76733.3,
+      "bid_size": 1.0,
+      "last_candle_ts": 1789082100,
+      "observed_at": 1789083406.265533,
+      "server_time": 1789083405
+    },
+    "ETHUSD": {
+      "ask": 2441.69,
+      "ask_size": 6.0,
+      "bid": 2441.68,
+      "bid_size": 1.0,
+      "last_candle_ts": 1789082100,
+      "observed_at": 1789083406.9536939,
+      "server_time": 1789083406
+    }
+  },
+  "warnings": [
+    "recorded_data_quality_errors",
+    "candidate_halted"
+  ],
+  "last_review": {
+    "last_review_completed_at": 1789434141.579799,
+    "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260915T010047Z.md",
+    "decision": "no_change_regime_diagnostic_only",
+    "last_schedule_slot": "2026-09-15T10:00:00+09:00",
+    "active_observation": "experiments/resume-20260914-v1",
+    "next_hypothesis": "Predefine one persistent-uptrend condition and design cost/stop-inclusive historical comparison; no retrospective holdout claim."
+  },
+  "review_due": false,
+  "orders_sent": 0,
+  "sp500": {
+    "status": "stored_reference_not_rechecked",
+    "file": "/Users/ermagent/Home/BreakOut/reports/monitoring/sp500/20260915T010047Z.json",
+    "record_age_seconds": 10786.531738996506,
+    "data": {
+      "observed_at": 1789434141.579799,
+      "instrument": "Breakout:S&P500",
+      "reference_price": null,
+      "reference_price_at": null,
+      "breakout_bid": null,
+      "breakout_ask": null,
+      "cash_market_status": "after_scheduled_regular_session",
+      "next_regular_open": "2026-09-15T13:30:00Z",
+      "new_price_samples": 0,
+      "new_live_samples": 0,
+      "status": "price_unavailable",
+      "sources": [
+        "https://www.spglobal.com/spdji/en/indices/equity/sp-500/#data",
+        "https://www.nyse.com/trade/hours-calendars"
+      ],
+      "note": "今回外部再確認なし。価格未取得、通常時間外は保存済み日程に基づく。新規価格0。"
+    }
+  },
+  "experiments": [
+    "/Users/ermagent/Home/BreakOut/experiments/cross-market-v1",
+    "/Users/ermagent/Home/BreakOut/experiments/realtime-v1",
+    "/Users/ermagent/Home/BreakOut/experiments/resume-20260914-v1"
+  ],
+  "reporter_sha256": "70ad2b799ef73b6766bad34f24cc93a575d841519c8aed94658c69a046baafd8"
+}
