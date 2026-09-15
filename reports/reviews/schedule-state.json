@@ -1,8 +1,8 @@
 {
-  "last_review_completed_at": 1789423436.334219,
-  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260914T220226Z.md",
-  "decision": "no_change_losses_and_small_sample",
-  "last_schedule_slot": "2026-09-15T07:00:00+09:00",
+  "last_review_completed_at": 1789434141.579799,
+  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260915T010047Z.md",
+  "decision": "no_change_regime_diagnostic_only",
+  "last_schedule_slot": "2026-09-15T10:00:00+09:00",
   "active_observation": "experiments/resume-20260914-v1",
-  "next_hypothesis": "BTC mean-reversion consecutive stops: intent/regime comparison with bounded historical examples; stop repeating selected old crossing case."
+  "next_hypothesis": "Predefine one persistent-uptrend condition and design cost/stop-inclusive historical comparison; no retrospective holdout claim."
 }
