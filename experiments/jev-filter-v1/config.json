@@ -1,0 +1,13 @@
+{
+  "version": "jev-filter-v1",
+  "model": "jev-latest",
+  "budget_usd": 1.0,
+  "duration_days": 30,
+  "input_usd_per_million": 0.042,
+  "reservation_usd_per_request": 0.01,
+  "max_request_bytes": 16000,
+  "request_timeout_seconds": 10,
+  "entry_probability": 0.6,
+  "source": "experiments/resume-20260914-v1/data/research.sqlite3",
+  "policy": "One frozen allow/skip filter; only allow with probability >=0.6. Matched baseline and filtered paper accounts use the same post-response source quote. No retrospective decisions. All 8 candidates are retained in each arm. Shared API cost is conservatively deducted in full from each standalone filtered candidate, never sum candidates. Any ambiguous API outcome blocks further API calls until reviewed. No live trading or automatic promotion."
+}
