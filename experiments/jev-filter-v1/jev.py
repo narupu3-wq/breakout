@@ -19,6 +19,8 @@ def parse_decision(response, threshold=0.6):
     if not math.isclose(sum(probabilities.values()), 1.0, abs_tol=1e-6):
         raise ValueError('Probabilities must sum to one')
     choice = answer.get('choice')
-    if choice not in probabilities or probabilities[choice] < max(probabilities.values()):
+    if not isinstance(choice, str) or choice not in probabilities:
+        raise ValueError('Invalid choice')
+    if probabilities[choice] < max(probabilities.values()):
         raise ValueError('Invalid choice')
     return choice == 'allow' and probabilities['allow'] >= threshold
