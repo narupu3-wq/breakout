@@ -1,5 +1,6 @@
 import math
 import json
+import os
 import sqlite3
 import subprocess
 import time
@@ -45,6 +46,9 @@ def budget_remaining(db, budget_usd):
 
 
 def api_key():
+    env = os.environ.get('TYPESAFE_AI_API_KEY')
+    if env:
+        return env.strip()
     result = subprocess.run(['security', 'find-generic-password', '-a', 'jev',
                              '-s', 'TYPESAFE_AI_API_KEY', '-w'],
                             capture_output=True, timeout=30)
