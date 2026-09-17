@@ -94,3 +94,13 @@ API別所要時間、成功前の再試行、判断計算の実終了時刻、�
 
 JST 07/10/13/16/19/22の1日6回に分析・報告・レビューを統一。従来毎時のAI実行を置換。各枠でレビューし厳密な完了後3時間待ちは使わない。夜間収集は継続。
 旧基準runはdata_gap停止保持。現行観測は `experiments/resume-20260914-v1/README.md` の独立DB。毎回旧版に加え同READMEの現行report・hourlyコマンドを実行し成績を分離する。停止期間をforwardに加算しない。現行状態は `reports/reviews/schedule-state.json` に記録。
+
+## Jevフィルター観測（2026-09-17開始）
+
+`experiments/jev-filter-v1/observe.py` が15分足確定ごとにBTC/ETHでJev判断（allow/skip）を記録する。
+各定時枠では `python3 experiments/jev-filter-v1/observe.py --status` 相当として
+`sqlite3 experiments/jev-filter-v1/data/ledger.sqlite3` から判断数・allow/skip比・累積費用・
+予算残（`jev.budget_remaining`）を集計し、プロセス鮮度は `experiments/jev-filter-v1/data/observe.log` とPIDで確認する。
+基準版の成績とは合算しない。判断0・予算枯渇・API失敗も正直に報告する。
+結果の評価は30日後（2026-10-17以降）を原則とし、単発のallow/skip成績で結論しない。
+Mac再起動後は `nohup` 起動コマンドを再実行する必要がある（自動起動は未登録）。
