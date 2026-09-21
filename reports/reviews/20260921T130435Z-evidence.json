@@ -1,0 +1,113 @@
+{
+  "review_completed_at": 1789995875,
+  "review_completed_at_utc": "2026-09-21T13:04:35Z",
+  "slot_jst": "2026-09-21T22:00:00+09:00",
+  "decision": "no_change_continue_forward",
+  "active_observation": "experiments/resume-20260914-v1",
+  "previous_review": {
+    "completed_at": 1789985203,
+    "file": "reports/reviews/20260921T100643Z.md"
+  },
+  "forward_since_previous_review": {
+    "observed_hours_delta": 2.972532,
+    "heartbeat_delta": 1390,
+    "intent_delta": 42,
+    "paper_fill_delta": 42,
+    "close_delta": 3,
+    "collection_error_delta": 1,
+    "collection_errors_last_1h": 0,
+    "gaps_over_150_seconds_last_1h": 0,
+    "new_close_symbols": {
+      "BTCUSD": 3,
+      "ETHUSD": 0
+    }
+  },
+  "current_report": {
+    "as_of": 1789995706.113965,
+    "observed_hours": 170.96855121692022,
+    "heartbeat_age_seconds": 25.08783721923828,
+    "orders_sent": 0,
+    "closed_1h": 3,
+    "net_1h_candidate_sum_usd": -4.17470995495017,
+    "candidate_totals": [
+      {
+        "candidate": "mean_reversion-cautious",
+        "closed": 49,
+        "net_usd": -44.17428947879855,
+        "max_dd_usd": 47.282703994329495
+      },
+      {
+        "candidate": "mean_reversion-cautious-stress",
+        "closed": 43,
+        "net_usd": -44.742712603159376,
+        "max_dd_usd": 46.89441889687896,
+        "halt": "risk_budget_exhausted"
+      },
+      {
+        "candidate": "mean_reversion-moderate",
+        "closed": 49,
+        "net_usd": -46.73133452014081,
+        "max_dd_usd": 49.839749035673776
+      },
+      {
+        "candidate": "mean_reversion-moderate-stress",
+        "closed": 54,
+        "net_usd": -74.7464797257527,
+        "max_dd_usd": 76.89818601948991
+      },
+      {
+        "candidate": "trend-cautious",
+        "closed": 30,
+        "net_usd": -12.644216822161228,
+        "max_dd_usd": 33.197950431756
+      },
+      {
+        "candidate": "trend-cautious-stress",
+        "closed": 31,
+        "net_usd": -40.403484452874785,
+        "max_dd_usd": 44.85513183614967
+      },
+      {
+        "candidate": "trend-moderate",
+        "closed": 30,
+        "net_usd": -14.921449701743194,
+        "max_dd_usd": 35.47518331133688
+      },
+      {
+        "candidate": "trend-moderate-stress",
+        "closed": 31,
+        "net_usd": -36.684430335711205,
+        "max_dd_usd": 46.96289406598953
+      }
+    ]
+  },
+  "historical_comparison": {
+    "window_candles_per_symbol": 720,
+    "filter": "btc_mean_reversion_filter",
+    "decision": "rejected",
+    "reason": "all candidates remained loss-making and stress/DD evidence did not qualify"
+  },
+  "sp500": {
+    "record": "reports/monitoring/sp500/20260921T130435Z.json",
+    "status": "stale_reference_pre_open",
+    "reference_price": 7650.5,
+    "reference_price_at": "2026-09-18T17:29:48-04:00",
+    "new_price_samples": 0,
+    "breakout_bid": null,
+    "breakout_ask": null
+  },
+  "jev_filter": {
+    "requests": 793,
+    "allow": 68,
+    "skip": 725,
+    "cost_usd": 0.121064,
+    "budget_remaining_usd": 0.878936,
+    "pid": 50159,
+    "status": "observing"
+  },
+  "recovery": {
+    "stage": "research_and_paper_observation",
+    "received_usd": 0,
+    "mac_remaining_jpy": 100000
+  }
+}

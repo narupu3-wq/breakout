@@ -1,0 +1,44 @@
+{
+  "observed_at": 1789995875,
+  "observed_at_utc": "2026-09-21T13:04:35Z",
+  "instrument": "Breakout:S&P500",
+  "cash_market_status": "pre_regular_open",
+  "market_status_basis": {
+    "timezone": "America/New_York",
+    "local_observed_at": "2026-09-21T09:04:35-04:00",
+    "regular_session": "09:30-16:00",
+    "weekday": "Monday",
+    "holiday_check": "2026-09-21 is not listed as a NYSE holiday in the saved calendar check"
+  },
+  "reference_price": 7650.5,
+  "reference_price_at": "2026-09-18T17:29:48-04:00",
+  "reference_change": {
+    "absolute": 12.74,
+    "percent": 0.17,
+    "meaning": "Google Finance displayed change for the stale Friday reference"
+  },
+  "breakout_bid": null,
+  "breakout_ask": null,
+  "price_status": "stale_previous_session_reference",
+  "source_checks": [
+    {
+      "source": "https://www.google.com/finance/quote/.INX:INDEXSP",
+      "status": "ok_via_browser",
+      "observed_value": "7,650.50",
+      "observed_timestamp": "9月18日, 17:29:48 GMT-4"
+    },
+    {
+      "source": "https://www.nyse.com/markets/hours-calendars",
+      "status": "calendar_reference",
+      "note": "保存済みの公開カレンダー確認を再利用。今回の市場状態は現在時刻からpre-openと判定。"
+    }
+  ],
+  "new_price_samples": 0,
+  "new_live_samples": 0,
+  "delay_or_missing": true,
+  "sources": [
+    "https://www.google.com/finance/quote/.INX:INDEXSP",
+    "https://www.nyse.com/markets/hours-calendars"
+  ],
+  "note": "現物市場は通常営業日の寄り付き前。取得できた指数値は9月18日の古い参照値であり、現在値・新規サンプルとして扱わない。Breakoutのbid/askは未接続。"
+}
