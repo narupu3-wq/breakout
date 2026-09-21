@@ -1,8 +1,8 @@
 {
-  "last_review_completed_at": 1789456295.270068,
-  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260915T070237Z.md",
-  "decision": "comparison_complete_rejected_stress_dd",
-  "last_schedule_slot": "2026-09-15T16:00:00+09:00",
+  "last_review_completed_at": 1789985203.0,
+  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260921T100643Z.md",
+  "decision": "no_change_continue_forward",
+  "last_schedule_slot": "2026-09-21T19:00:00+09:00",
   "active_observation": "experiments/resume-20260914-v1",
-  "next_hypothesis": "Direction filter rejected for stress/DD; no threshold retuning. Review new forward evidence and unresolved SP500 source separately."
+  "next_hypothesis": "Continue fixed forward observation; verify BTC trend versus ETH sample and unresolved S&P500 price source; no threshold retuning."
 }

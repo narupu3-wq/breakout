@@ -1,0 +1,66 @@
+{
+  "review_completed_at": 1789985203,
+  "review_completed_at_utc": "2026-09-21T10:06:43Z",
+  "slot_jst": "2026-09-21T19:00:00+09:00",
+  "decision": "no_change_continue_forward",
+  "active_observation": "experiments/resume-20260914-v1",
+  "forward_since_previous_review": {
+    "previous_review_completed_at": 1789456295.270068,
+    "close_events": 272,
+    "intent_events": 279,
+    "paper_fill_events": 279,
+    "heartbeat_events": 8545,
+    "collection_errors": 2,
+    "collection_error_types": {
+      "OHLC data is stale": 2
+    },
+    "risk_budget_exhausted_events": 1
+  },
+  "current_report": {
+    "as_of": 1789985013.761684,
+    "observed_hours": 167.9960187019242,
+    "heartbeat_age_seconds": 33.85261011123657,
+    "closed_1h": 7,
+    "net_1h_candidate_sum_usd": 5.9551,
+    "closed_1h_symbols": {
+      "BTCUSD": 7,
+      "ETHUSD": 0
+    },
+    "orders_sent": 0
+  },
+  "candidate_totals": [
+    {"candidate": "mean_reversion-cautious", "closed": 48, "net_usd": -43.3239, "max_dd_usd": 47.0496},
+    {"candidate": "mean_reversion-cautious-stress", "closed": 43, "net_usd": -44.7427, "max_dd_usd": 46.8944, "halt": "risk_budget_exhausted"},
+    {"candidate": "mean_reversion-moderate", "closed": 48, "net_usd": -43.6872, "max_dd_usd": 49.0055},
+    {"candidate": "mean_reversion-moderate-stress", "closed": 53, "net_usd": -74.4663, "max_dd_usd": 76.8125},
+    {"candidate": "trend-cautious", "closed": 30, "net_usd": -12.6442, "max_dd_usd": 33.1980},
+    {"candidate": "trend-cautious-stress", "closed": 31, "net_usd": -40.4035, "max_dd_usd": 44.8551},
+    {"candidate": "trend-moderate", "closed": 30, "net_usd": -14.9214, "max_dd_usd": 35.4752},
+    {"candidate": "trend-moderate-stress", "closed": 31, "net_usd": -36.6844, "max_dd_usd": 46.9629}
+  ],
+  "historical_comparison": {
+    "window_candles_per_symbol": 720,
+    "filter": "btc_mean_reversion_filter",
+    "decision": "rejected",
+    "reason": "all candidates remained loss-making and stress/double-cost/DD evidence did not qualify"
+  },
+  "sp500": {
+    "new_price_samples": 0,
+    "status": "price_unavailable_pre_open",
+    "record": "reports/monitoring/sp500/20260921T100643Z.json"
+  },
+  "recovery": {
+    "stage": "research_and_paper_observation",
+    "received_usd": 0,
+    "mac_remaining_jpy": 100000
+  },
+  "jev_filter": {
+    "requests": 769,
+    "allow": 63,
+    "skip": 706,
+    "cost_usd": 0.117395,
+    "budget_remaining_usd": 0.882605,
+    "pid": 50159,
+    "status": "observing"
+  }
+}
