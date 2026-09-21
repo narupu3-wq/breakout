@@ -1,8 +1,8 @@
 {
-  "last_review_completed_at": 1789995875.0,
-  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260921T130435Z.md",
-  "decision": "no_change_continue_forward",
-  "last_schedule_slot": "2026-09-21T22:00:00+09:00",
+  "last_review_completed_at": 1790028519.0,
+  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260921T220839Z.md",
+  "decision": "no_change_prioritize_loss_diagnosis",
+  "last_schedule_slot": "2026-09-22T07:00:00+09:00",
   "active_observation": "experiments/resume-20260914-v1",
-  "next_hypothesis": "Continue fixed forward observation; compare BTC mean-reversion losses with trend outcomes on deduplicated unused signals; no threshold retuning."
+  "next_hypothesis": "Deduplicate new BTC trend signals and diagnose entry timing, holding duration, fees, and re-entry before considering one isolated strategy change."
 }

@@ -1,0 +1,178 @@
+{
+  "review_completed_at": 1790028519,
+  "review_completed_at_utc": "2026-09-21T22:08:39Z",
+  "slot_jst": "2026-09-22T07:00:00+09:00",
+  "decision": "no_change_prioritize_loss_diagnosis",
+  "active_observation": "experiments/resume-20260914-v1",
+  "previous_review": {
+    "completed_at": 1789995875,
+    "file": "reports/reviews/20260921T130435Z.md"
+  },
+  "forward_since_previous_slot": {
+    "elapsed_hours": 9.002186473343107,
+    "observed_hours_delta": 8.993691562811534,
+    "heartbeat_delta": 505,
+    "intent_delta": 15,
+    "paper_fill_delta": 15,
+    "close_delta": 18,
+    "collection_error_delta": 0,
+    "btc_reference_move": {
+      "previous_ask": 85224.7,
+      "current_ask": 86578.1,
+      "absolute": 1353.4,
+      "percent": 1.588037270885101
+    },
+    "candidate_net_deltas_usd": {
+      "mean_reversion-cautious": -0.4520027223917964,
+      "mean_reversion-cautious-stress": 0.0,
+      "mean_reversion-moderate": -3.2844638218720164,
+      "mean_reversion-moderate-stress": 0.0,
+      "trend-cautious": 2.2500883650896117,
+      "trend-cautious-stress": -0.7265664384781303,
+      "trend-moderate": 2.2500883650896117,
+      "trend-moderate-stress": -0.118196340386028
+    }
+  },
+  "current_report": {
+    "file": "experiments/resume-20260914-v1/reports/hourly/20260921T220153985269Z-96096dd0/report.json",
+    "as_of": 1790028113.985269,
+    "observed_hours": 179.96224277973175,
+    "heartbeat_age_seconds": 55.66951513290405,
+    "orders_sent": 0,
+    "closed_1h_candidate_rows": 4,
+    "net_1h_candidate_sum_usd": -12.122562254934227,
+    "independence_warning": "The four rows are correlated variants of the same BTC market signal and are not four independent losses.",
+    "collection_errors_1h": 0,
+    "gaps_over_150_seconds_1h": 0,
+    "unfilled_1h": 0,
+    "open_position": {
+      "candidate": "mean_reversion-moderate",
+      "symbol": "BTCUSD",
+      "side": "short",
+      "unrealized_usd": 2.311311827430127,
+      "quote_status": "fresh",
+      "quote_ts": 1790028057.440023,
+      "mark_price": 86578.1
+    },
+    "candidate_totals": [
+      {
+        "candidate": "mean_reversion-cautious",
+        "closed": 50,
+        "net_usd": -44.626292201190346,
+        "max_dd_usd": 47.73470671671839,
+        "halt": "risk_budget_exhausted"
+      },
+      {
+        "candidate": "mean_reversion-cautious-stress",
+        "closed": 43,
+        "net_usd": -44.742712603159376,
+        "max_dd_usd": 46.89441889687896,
+        "halt": "risk_budget_exhausted"
+      },
+      {
+        "candidate": "mean_reversion-moderate",
+        "closed": 50,
+        "net_usd": -50.01579834201283,
+        "max_dd_usd": 53.53617431610746,
+        "halt": null
+      },
+      {
+        "candidate": "mean_reversion-moderate-stress",
+        "closed": 54,
+        "net_usd": -74.7464797257527,
+        "max_dd_usd": 76.89818601948991,
+        "halt": "risk_budget_exhausted"
+      },
+      {
+        "candidate": "trend-cautious",
+        "closed": 34,
+        "net_usd": -10.394128457071616,
+        "max_dd_usd": 33.197950431756,
+        "halt": null
+      },
+      {
+        "candidate": "trend-cautious-stress",
+        "closed": 35,
+        "net_usd": -41.130050891352916,
+        "max_dd_usd": 44.85513183614967,
+        "halt": null
+      },
+      {
+        "candidate": "trend-moderate",
+        "closed": 34,
+        "net_usd": -12.671361336653582,
+        "max_dd_usd": 35.47518331133688,
+        "halt": null
+      },
+      {
+        "candidate": "trend-moderate-stress",
+        "closed": 35,
+        "net_usd": -36.80262667609723,
+        "max_dd_usd": 46.96289406598953,
+        "halt": null
+      }
+    ]
+  },
+  "process_status": {
+    "paper": {
+      "status": "running",
+      "pid": 35333,
+      "mode": "paper_only"
+    },
+    "realtime_ws": {
+      "status": "observing",
+      "pid": 35476,
+      "status_age_seconds": 0.13,
+      "accepted": 13539962,
+      "rejected": 788316,
+      "alerts": 149,
+      "reconnects": 84,
+      "ai_calls": 0,
+      "orders_sent": 0
+    },
+    "jev_filter": {
+      "requests": 865,
+      "allow": 76,
+      "skip": 789,
+      "cost_usd": 0.132113,
+      "budget_remaining_usd": 0.867887,
+      "pid": 50159,
+      "status": "observing"
+    }
+  },
+  "historical_comparison": {
+    "window_candles_per_symbol": 720,
+    "filter": "btc_mean_reversion_filter",
+    "decision": "rejected",
+    "reason": "all candidates remained loss-making and stress/DD evidence did not qualify"
+  },
+  "sp500": {
+    "record": "reports/monitoring/sp500/20260921T220839Z.json",
+    "cash_market_status": "closed_after_regular_session",
+    "reference_price": 7764.7,
+    "reference_change_absolute": 114.2,
+    "reference_change_percent": 1.49,
+    "reference_price_at": "2026-09-21T16:51:02-04:00",
+    "price_status": "delayed_after_close_reference",
+    "new_price_samples": 1,
+    "new_live_samples": 0,
+    "breakout_bid": null,
+    "breakout_ask": null
+  },
+  "adaptive_validation": {
+    "stage": "continue_forward_not_adoption_ready",
+    "missing": [
+      "100 closed trades per candidate",
+      "deduplicated independent signal count",
+      "multiple market regimes",
+      "ETH forward outcomes",
+      "Breakout connection and execution evidence"
+    ],
+    "old_fixed_60_day_gate": "preserved_but_not_used_as_blanket_wait"
+  },
+  "recovery": {
+    "stage": "research_and_paper_observation",
+    "received_usd": 0,
+    "mac_remaining_jpy": 100000
+  }
+}

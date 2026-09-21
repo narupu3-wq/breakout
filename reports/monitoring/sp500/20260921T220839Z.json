@@ -1,0 +1,52 @@
+{
+  "observed_at": 1790028519,
+  "observed_at_utc": "2026-09-21T22:08:39Z",
+  "instrument": "Breakout:S&P500",
+  "cash_market_status": "closed_after_regular_session",
+  "market_status_basis": {
+    "timezone": "America/New_York",
+    "local_observed_at": "2026-09-21T18:08:39-04:00",
+    "regular_session": "09:30-16:00",
+    "weekday": "Monday",
+    "holiday_check": "2026-09-21 is not listed as a NYSE holiday in the saved calendar check"
+  },
+  "reference_instrument": "S&P 500 cash index (.INX:INDEXSP)",
+  "reference_price": 7764.7,
+  "reference_price_at": "2026-09-21T16:51:02-04:00",
+  "reference_change": {
+    "absolute": 114.2,
+    "percent": 1.49,
+    "meaning": "Google Finance displayed daily change for the S&P 500 cash-index reference"
+  },
+  "breakout_bid": null,
+  "breakout_ask": null,
+  "price_status": "delayed_after_close_reference",
+  "source_checks": [
+    {
+      "source": "https://www.google.com/finance/quote/.INX:INDEXSP",
+      "status": "ok_via_browser",
+      "observed_value": "7,764.70",
+      "observed_change": "+114.20 (+1.49%)",
+      "observed_timestamp": "2026-09-21 16:51:02 GMT-4"
+    },
+    {
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d&range=5d",
+      "status": "http_429",
+      "note": "公開取得を1回だけ試行したがレート制限。迂回・再試行はしていない。"
+    },
+    {
+      "source": "https://www.nyse.com/markets/hours-calendars",
+      "status": "calendar_reference",
+      "note": "保存済み公開カレンダーと米東部時刻から通常取引終了後と判定。"
+    }
+  ],
+  "new_price_samples": 1,
+  "new_live_samples": 0,
+  "delay_or_missing": true,
+  "sources": [
+    "https://www.google.com/finance/quote/.INX:INDEXSP",
+    "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d&range=5d",
+    "https://www.nyse.com/markets/hours-calendars"
+  ],
+  "note": "現物市場は通常取引終了後。時刻付き指数参照値は取得できたが、取得時点より約77分古くライブ値ではない。Breakout固有のbid/askは未接続で、外部指数値をBreakout価格として扱わない。"
+}
