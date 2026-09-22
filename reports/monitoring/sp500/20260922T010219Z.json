@@ -1,0 +1,47 @@
+{
+  "observed_at": 1790038939.396702,
+  "observed_at_utc": "2026-09-22T01:02:19.396702Z",
+  "instrument": "Breakout:S&P500",
+  "cash_market_status": "closed_after_regular_session",
+  "market_status_basis": {
+    "timezone": "America/New_York",
+    "local_observed_at": "2026-09-21T21:02:19.396702-04:00",
+    "regular_session": "09:30-16:00",
+    "weekday": "Monday",
+    "holiday_check": "2026-09-21 is not listed as a NYSE holiday in the saved calendar check"
+  },
+  "reference_instrument": "S&P 500 cash index (.INX:INDEXSP)",
+  "reference_price": 7764.7,
+  "reference_price_at": "2026-09-21T16:51:02-04:00",
+  "reference_change": {
+    "absolute": 114.2,
+    "percent": 1.49,
+    "meaning": "Last internally consistent timestamped Google Finance display retained from the 07:00 JST check"
+  },
+  "breakout_bid": null,
+  "breakout_ask": null,
+  "price_status": "unchanged_stale_reference",
+  "source_checks": [
+    {
+      "source": "https://www.google.com/finance/quote/.INX:INDEXSP",
+      "status": "page_loaded_value_unchanged_timestamp_inconsistent",
+      "observed_value": "7,764.70",
+      "observed_change": "+114.20 (+1.49%)",
+      "displayed_timestamp": "12月31日 20:00:00 UTC-4",
+      "note": "The displayed date is inconsistent with the 2026-09-22 check and cannot establish a new timestamped sample. The last internally consistent timestamp remains 2026-09-21 16:51:02 EDT."
+    },
+    {
+      "source": "https://www.nyse.com/markets/hours-calendars",
+      "status": "saved_calendar_reference",
+      "note": "Saved public calendar and America/New_York time place this check after the regular session."
+    }
+  ],
+  "new_price_samples": 0,
+  "new_live_samples": 0,
+  "delay_or_missing": true,
+  "sources": [
+    "https://www.google.com/finance/quote/.INX:INDEXSP",
+    "https://www.nyse.com/markets/hours-calendars"
+  ],
+  "note": "No new valid timestamped price. The unchanged stale external index reference is not Breakout bid/ask and is not counted as a new sample."
+}

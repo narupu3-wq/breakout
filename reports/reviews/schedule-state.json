@@ -1,8 +1,8 @@
 {
-  "last_review_completed_at": 1790028519.0,
-  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260921T220839Z.md",
-  "decision": "no_change_prioritize_loss_diagnosis",
-  "last_schedule_slot": "2026-09-22T07:00:00+09:00",
+  "last_review_completed_at": 1790038939.396702,
+  "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260922T010219Z.md",
+  "decision": "no_change_collect_reentry_chains",
+  "last_schedule_slot": "2026-09-22T10:00:00+09:00",
   "active_observation": "experiments/resume-20260914-v1",
-  "next_hypothesis": "Deduplicate new BTC trend signals and diagnose entry timing, holding duration, fees, and re-entry before considering one isolated strategy change."
+  "next_hypothesis": "Measure profit-taking followed by same-direction BTC trend re-entry as one deduplicated chain, including fees and missed upside, across new forward regimes before considering a cooldown experiment."
 }
