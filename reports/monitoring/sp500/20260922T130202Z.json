@@ -1,0 +1,17 @@
+{
+  "observed_at": 1790082444.274579,
+  "source": "https://www.google.com/finance/quote/.INX:INDEXSP",
+  "reference_instrument": "S&P 500 cash index",
+  "cash_market_status": "before_regular_session_by_schedule",
+  "market_status_basis": "2026-09-22 13時UTCは09時EDT。通常09:30開始。保存済みNYSEカレンダー参照、当日外部再確認不可。",
+  "reference_price": null,
+  "reference_price_at": null,
+  "reference_change": null,
+  "new_price_samples": 0,
+  "delay_or_missing": true,
+  "breakout_bid": null,
+  "breakout_ask": null,
+  "source_status": "browser_auto_review_denied",
+  "reason": "Authenticated Google session access broader than public observation; no bypass attempted.",
+  "previous_reference_file": "reports/monitoring/sp500/20260922T100201Z.json"
+}
