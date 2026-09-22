@@ -1,0 +1,46 @@
+{
+  "observed_at": 1790049645.243955,
+  "observed_at_utc": "2026-09-22T04:00:45.243955Z",
+  "instrument": "Breakout:S&P500",
+  "cash_market_status": "closed_after_regular_session",
+  "market_status_basis": {
+    "timezone": "America/New_York",
+    "local_observed_at": "2026-09-22T00:00:45.243955-04:00",
+    "regular_session": "09:30-16:00",
+    "weekday": "Tuesday",
+    "holiday_check": "2026-09-22 is not listed as a NYSE holiday in the saved calendar check"
+  },
+  "reference_instrument": "S&P 500 cash index (.INX:INDEXSP)",
+  "reference_price": 7764.7,
+  "reference_price_at": "2026-09-21T16:51:02-04:00",
+  "reference_change": {
+    "absolute": 114.2,
+    "percent": 1.49,
+    "meaning": "Google Finance displayed daily change for the S&P 500 cash-index reference"
+  },
+  "breakout_bid": null,
+  "breakout_ask": null,
+  "price_status": "delayed_after_close_reference",
+  "source_checks": [
+    {
+      "source": "https://www.google.com/finance/quote/.INX:INDEXSP",
+      "status": "ok_via_browser",
+      "observed_value": "7,764.70",
+      "observed_change": "+114.20 (+1.49%)",
+      "observed_timestamp": "2026-09-21 16:51:02 GMT-4"
+    },
+    {
+      "source": "https://www.nyse.com/markets/hours-calendars",
+      "status": "calendar_reference",
+      "note": "Saved public calendar and America/New_York time place this check after the regular session."
+    }
+  ],
+  "new_price_samples": 0,
+  "new_live_samples": 0,
+  "delay_or_missing": true,
+  "sources": [
+    "https://www.google.com/finance/quote/.INX:INDEXSP",
+    "https://www.nyse.com/markets/hours-calendars"
+  ],
+  "note": "The timestamped public reference remains the prior session close; no new price sample is counted. Breakout bid/ask is unconnected."
+}
