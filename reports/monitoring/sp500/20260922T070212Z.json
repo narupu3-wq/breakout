@@ -1,0 +1,19 @@
+{
+  "observed_at": 1790060814.0472388,
+  "reference_instrument": "S&P 500 cash index (.INX:INDEXSP)",
+  "cash_market_status": "closed_before_regular_session",
+  "market_status_basis": "America/New_York 03時台、通常09:30-16:00。既存NYSEカレンダー参照。",
+  "reference_price": 7764.7,
+  "reference_price_at": "2026-09-21T16:51:02-04:00",
+  "reference_change": {
+    "absolute": 114.2,
+    "percent": 1.49
+  },
+  "source": "https://www.google.com/finance/quote/.INX:INDEXSP",
+  "source_status": "ok_via_browser",
+  "new_price_samples": 0,
+  "breakout_bid": null,
+  "breakout_ask": null,
+  "delay_or_missing": true,
+  "note": "前セッション時刻の参照値。現時点のBreakout価格ではない。"
+}
