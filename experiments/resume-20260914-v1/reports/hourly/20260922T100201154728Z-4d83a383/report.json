@@ -1,0 +1,353 @@
+{
+  "latency": {
+    "poll_seconds": 60,
+    "gap_threshold_seconds": 150.0,
+    "signal_freshness_seconds": 120,
+    "api_duration_seconds": null,
+    "total": {
+      "observation_interval_seconds": {
+        "count": 11138,
+        "mean": 62.0471339499122,
+        "p95": 63.86080312728882,
+        "maximum": 131.5345320701599
+      },
+      "interval_excess_over_poll_seconds": {
+        "count": 11138,
+        "mean": 2.0472856045711145,
+        "p95": 3.8608031272888184,
+        "maximum": 71.53453207015991
+      },
+      "intervals_with_collection_error": 3,
+      "gaps_over_threshold": 0,
+      "candle_check_delay_seconds": {
+        "count": 1538,
+        "mean": 32.94687393427825,
+        "p95": 61.01079297065735,
+        "maximum": 194.24174690246582
+      },
+      "signal_delay_seconds": {
+        "count": 272,
+        "mean": 33.93255572459277,
+        "p95": 61.65942192077637,
+        "maximum": 194.24174690246582
+      },
+      "stale_signal_observations": 1,
+      "invalid_check_events": 0,
+      "collection_errors": 3,
+      "error_messages": {
+        "OHLC data is stale": 3
+      }
+    },
+    "last_1h": {
+      "observation_interval_seconds": {
+        "count": 58,
+        "mean": 61.82042927577578,
+        "p95": 62.32975912094116,
+        "maximum": 63.1968309879303
+      },
+      "interval_excess_over_poll_seconds": {
+        "count": 58,
+        "mean": 1.8204292757757778,
+        "p95": 2.329759120941162,
+        "maximum": 3.196830987930298
+      },
+      "intervals_with_collection_error": 0,
+      "gaps_over_threshold": 0,
+      "candle_check_delay_seconds": {
+        "count": 8,
+        "mean": 34.79713296890259,
+        "p95": 54.991868019104004,
+        "maximum": 54.991868019104004
+      },
+      "signal_delay_seconds": {
+        "count": 3,
+        "mean": 25.54999526341756,
+        "p95": 49.16862201690674,
+        "maximum": 49.16862201690674
+      },
+      "stale_signal_observations": 0,
+      "invalid_check_events": 0,
+      "collection_errors": 0,
+      "error_messages": {}
+    }
+  },
+  "version": "hourly-report-v2",
+  "as_of": 1790071321.154728,
+  "run": "paper-2c61155f42537ed8",
+  "status": "attention_required",
+  "observed_hours": 191.9669383150339,
+  "heartbeat_age_seconds": 45.935046911239624,
+  "stale_after_seconds": 150.0,
+  "events": {
+    "daily_reset": 72,
+    "decision": 1380,
+    "no_signal": 10924,
+    "heartbeat": 11139,
+    "intent": 342,
+    "paper_fill": 342,
+    "close": 341,
+    "collection_error": 3,
+    "risk_budget_exhausted": 3
+  },
+  "events_1h": {
+    "heartbeat": 58,
+    "no_signal": 52,
+    "decision": 12
+  },
+  "errors": [
+    {
+      "candidate": "system",
+      "ts": 1789398002.84656,
+      "kind": "collection_error",
+      "payload": {
+        "error": "OHLC data is stale",
+        "kind": "collection_error",
+        "ts": 1789398002.84656
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1789488901.641738,
+      "kind": "collection_error",
+      "payload": {
+        "error": "OHLC data is stale",
+        "kind": "collection_error",
+        "ts": 1789488901.641738
+      }
+    },
+    {
+      "candidate": "system",
+      "ts": 1789490701.94914,
+      "kind": "collection_error",
+      "payload": {
+        "error": "OHLC data is stale",
+        "kind": "collection_error",
+        "ts": 1789490701.94914
+      }
+    }
+  ],
+  "error_count_1h": 0,
+  "candidates": [
+    {
+      "candidate": "mean_reversion-cautious",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 50,
+      "net_total": -44.626292201190346,
+      "balance": 4955.373707798851,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 47.73470671671839,
+      "halt": "risk_budget_exhausted",
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "mean_reversion-cautious-stress",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 43,
+      "net_total": -44.742712603159376,
+      "balance": 4955.257287396831,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 46.89441889687896,
+      "halt": "risk_budget_exhausted",
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "mean_reversion-moderate",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 52,
+      "net_total": -50.76800862866301,
+      "balance": 4949.053618065523,
+      "position": {
+        "carry": 0.007367726138983835,
+        "carry_ts": 1790071275.219681,
+        "entry": 85996.7801,
+        "entry_fee": 0.17100557970498337,
+        "opened": 1790066763.075305,
+        "qty": 0.004971278561422073,
+        "side": -1,
+        "stop": 86483.26581428571,
+        "symbol": "BTCUSD",
+        "take": 85267.05152857144
+      },
+      "unrealized": -1.027662207089297,
+      "quote_ts": 1790071274.501009,
+      "quote_status": "fresh",
+      "mark_price": 86203.5,
+      "dd": 55.51575526407214,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "mean_reversion-moderate-stress",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 54,
+      "net_total": -74.7464797257527,
+      "balance": 4925.25352027422,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 76.89818601948991,
+      "halt": "risk_budget_exhausted",
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "trend-cautious",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 35,
+      "net_total": -13.627073681528172,
+      "balance": 4986.372926318461,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 33.197950431756,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "trend-cautious-stress",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 36,
+      "net_total": -43.04717753838715,
+      "balance": 4956.95282246164,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 44.85513183614967,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "trend-moderate",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 35,
+      "net_total": -15.904306561110138,
+      "balance": 4984.0956934388805,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 35.47518331133688,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    },
+    {
+      "candidate": "trend-moderate-stress",
+      "closed_1h": 0,
+      "net_1h": 0,
+      "closed_total": 36,
+      "net_total": -39.7749551380974,
+      "balance": 4960.225044861939,
+      "position": null,
+      "unrealized": 0.0,
+      "quote_ts": null,
+      "quote_status": "not_needed",
+      "mark_price": null,
+      "dd": 46.96289406598953,
+      "halt": null,
+      "daily_halt": false,
+      "unfilled_1h": 0,
+      "unfilled_total": 0
+    }
+  ],
+  "quotes": {
+    "BTCUSD": {
+      "ask": 86203.5,
+      "ask_size": 1.0,
+      "bid": 86203.4,
+      "bid_size": 1.0,
+      "last_candle_ts": 1790070300,
+      "observed_at": 1790071274.501009,
+      "server_time": 1790071274
+    },
+    "ETHUSD": {
+      "ask": 2749.63,
+      "ask_size": 1.0,
+      "bid": 2749.62,
+      "bid_size": 1.0,
+      "last_candle_ts": 1790070300,
+      "observed_at": 1790071275.219681,
+      "server_time": 1790071274
+    }
+  },
+  "warnings": [
+    "recorded_data_quality_errors",
+    "candidate_halted"
+  ],
+  "last_review": {
+    "last_review_completed_at": 1790060814.047679,
+    "review_file": "/Users/ermagent/Home/BreakOut/reports/reviews/20260922T070212Z.md",
+    "decision": "no_change_collect_reentry_chains",
+    "last_schedule_slot": "2026-09-22T16:00:00+09:00",
+    "active_observation": "experiments/resume-20260914-v1",
+    "next_hypothesis": "Measure profit-taking followed by same-direction BTC trend re-entry as one deduplicated chain, including fees and missed upside, across new forward regimes before considering a cooldown experiment."
+  },
+  "review_due": false,
+  "orders_sent": 0,
+  "sp500": {
+    "status": "stored_reference_not_rechecked",
+    "file": "/Users/ermagent/Home/BreakOut/reports/monitoring/sp500/20260922T070212Z.json",
+    "record_age_seconds": 10507.10748910904,
+    "data": {
+      "observed_at": 1790060814.0472388,
+      "reference_instrument": "S&P 500 cash index (.INX:INDEXSP)",
+      "cash_market_status": "closed_before_regular_session",
+      "market_status_basis": "America/New_York 03時台、通常09:30-16:00。既存NYSEカレンダー参照。",
+      "reference_price": 7764.7,
+      "reference_price_at": "2026-09-21T16:51:02-04:00",
+      "reference_change": {
+        "absolute": 114.2,
+        "percent": 1.49
+      },
+      "source": "https://www.google.com/finance/quote/.INX:INDEXSP",
+      "source_status": "ok_via_browser",
+      "new_price_samples": 0,
+      "breakout_bid": null,
+      "breakout_ask": null,
+      "delay_or_missing": true,
+      "note": "前セッション時刻の参照値。現時点のBreakout価格ではない。"
+    }
+  },
+  "experiments": [
+    "/Users/ermagent/Home/BreakOut/experiments/jev-filter-v1",
+    "/Users/ermagent/Home/BreakOut/experiments/cross-market-v1",
+    "/Users/ermagent/Home/BreakOut/experiments/realtime-v1",
+    "/Users/ermagent/Home/BreakOut/experiments/resume-20260914-v1",
+    "/Users/ermagent/Home/BreakOut/experiments/regime-filter-plan-20260915"
+  ],
+  "reporter_sha256": "70ad2b799ef73b6766bad34f24cc93a575d841519c8aed94658c69a046baafd8"
+}

@@ -1,0 +1,1 @@
+旧runはdata_gap停止保持。直近1時間取引なし。停止期間をforwardとして数えず、現行と合算しない。数値は同梱report.json。
